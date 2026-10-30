@@ -1,0 +1,57 @@
+.contentQuestion {
+    max-width: 1400px;
+    margin: 25px auto;
+}
+
+.contentQuestion .NameHead {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: Cairo, "Cairo Fallback";
+    font-size: 56px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 84px;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.contentQuestion .Steps {
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.contentQuestion .Steps div {
+    width: 80%;
+    margin: auto;
+    text-align: right;
+    font-family: Cairo, "Cairo Fallback";
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 28px;
+    letter-spacing: normal;
+    color: #2243A4;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 25px;
+    border: solid #04020292 1px;
+    border-radius: 18px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.contentQuestion .Steps div p {
+    font-family: Cairo, "Cairo Fallback";
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 28px;
+    letter-spacing: normal;
+    color: #4A5565;
+    transition: 0.4s ease;
+}

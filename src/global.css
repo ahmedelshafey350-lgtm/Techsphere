@@ -1,0 +1,687 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    color: #172b4d;
+    font-family: "Cairo", Tahoma, Arial, sans-serif;
+    line-height: 1.65;
+    text-align: start;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+}
+
+button,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+img,
+svg,
+video {
+    max-width: 100%;
+}
+
+:focus-visible {
+    outline: 3px solid rgba(7, 62, 228, 0.55);
+    outline-offset: 3px;
+}
+
+@media (max-width: 1024px) {
+    .content2 .intro {
+        margin-right: 20px;
+    }
+
+    .content2 .intro .head {
+        font-size: 26px;
+        line-height: 1.6;
+    }
+
+    .content2 .intro .btn {
+        gap: 14px;
+        flex-wrap: wrap;
+    }
+
+    .ContentAbout,
+    .contentQuestion,
+    .Contactus {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    .ContentAbout .moredetalis .contentTraniar div {
+        width: 85%;
+    }
+
+    .Contactus .detalis div:nth-child(2) img:first-child {
+        left: 30%;
+    }
+
+    .Contactus .detalis div:nth-child(2) img:nth-child(2) {
+        left: 10%;
+    }
+
+    .Section2 .Sketch {
+        gap: 32px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 24px;
+    }
+}
+
+@media (max-width: 900px) {
+    .content {
+        flex-wrap: wrap;
+        padding: 8px 16px;
+    }
+
+    .content .logo {
+        width: 88px;
+        margin-right: 0;
+    }
+
+    .content .NavLink {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        flex-basis: 100%;
+        width: 100%;
+        padding: 8px 16px 14px;
+        background-color: var(--back-ground-color);
+        box-shadow: 0 8px 12px rgba(15, 23, 42, 0.12);
+    }
+
+    .content .NavLink.is-open {
+        display: block;
+    }
+
+    .content .NavLink ul {
+        align-items: stretch;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .content .NavLink ul li {
+        white-space: normal;
+        font-size: 17px;
+    }
+
+    .content .NavLink ul li a {
+        display: block;
+        padding: 10px 8px;
+    }
+
+    .content .icon {
+        gap: 0;
+        margin-left: 0;
+    }
+
+    .content .icon .login-button {
+        display: none;
+    }
+
+    .content .icon .nav-toggle {
+        display: inline-flex;
+    }
+
+    .content2 {
+        height: auto;
+        min-height: 100vh;
+        min-height: 100svh;
+        overflow: hidden;
+    }
+
+    .content2 .image {
+        margin-top: 90px;
+    }
+
+    .content2 .intro {
+        margin-top: 100px;
+    }
+
+    .ContentAbout .NameAbout,
+    .contentQuestion .NameHead {
+        font-size: 44px;
+        line-height: 1.4;
+    }
+
+    .ContentAbout .About .WordAbout {
+        height: auto;
+        gap: 16px;
+    }
+
+    .ContentAbout .About .WordAbout div p {
+        font-size: 20px;
+        line-height: 1.8;
+    }
+
+    .ContentAbout .moredetalis .contentTraniar div {
+        padding: 16px;
+    }
+
+    .contentFooter {
+        flex-wrap: wrap;
+        padding: 0 24px;
+    }
+
+    .contentFooter div {
+        width: calc(50% - 12px);
+    }
+
+    .Section2 .Sketch div {
+        flex: 1 1 180px;
+    }
+
+    .whatsapp-float {
+        right: 16px;
+        bottom: max(16px, env(safe-area-inset-bottom));
+    }
+}
+
+@media (max-width: 768px) {
+    .contentAbout2 {
+        height: auto;
+        min-height: 62vh;
+        min-height: 62svh;
+        padding: 110px 24px 48px;
+    }
+
+    .contentAbout2 .ggg {
+        width: 100%;
+        transform: none;
+    }
+
+    .contentAbout2 .ggg h1 {
+        font-size: clamp(30px, 6vw, 42px);
+        line-height: 1.35;
+    }
+
+    .contentAbout2 .ggg p {
+        font-size: clamp(17px, 2.6vw, 21px);
+        line-height: 1.8;
+    }
+
+    .content2 {
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 24px;
+        padding: 96px 22px 32px;
+    }
+
+    .content2 .image,
+    .content2 .intro {
+        width: 100%;
+        margin: 0;
+    }
+
+    .content2 .image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .content2 .image img {
+        width: min(100%, 520px);
+        margin-top: 0;
+    }
+
+    .content2 .intro {
+        gap: 14px;
+        margin-right: 0;
+    }
+
+    .content2 .intro .head {
+        font-size: clamp(26px, 5vw, 36px);
+        line-height: 1.5;
+    }
+
+    .content2 .intro .parg {
+        font-size: 17px;
+        line-height: 1.8;
+    }
+
+    .content2 .intro .hahtag {
+        font-size: 17px;
+    }
+
+    .content2 .intro .btn {
+        gap: 12px;
+    }
+
+    .content2 .intro .clasified {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .content2 .intro .clasified > div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .content2 .intro .clasified div div {
+        position: static;
+    }
+
+    .content2 .intro .clasified div div span:first-child {
+        font-size: 22px;
+    }
+
+    .content2 .intro .clasified div div span:nth-child(2) {
+        font-size: 14px;
+    }
+
+    .ContentAbout,
+    .contentQuestion,
+    .Contactus {
+        margin-top: 24px;
+        padding-right: 18px;
+        padding-left: 18px;
+    }
+
+    .ContentAbout .NameAbout,
+    .contentQuestion .NameHead {
+        margin: 28px 0;
+        font-size: clamp(30px, 6vw, 42px);
+        line-height: 1.4;
+    }
+
+    .ContentAbout .About {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .ContentAbout .About .twoimage,
+    .ContentAbout .About .WordAbout {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .ContentAbout .About .twoimage {
+        max-height: 360px;
+    }
+
+    .ContentAbout .About .twoimage img {
+        width: calc(50% - 4px);
+        height: 280px;
+        object-fit: cover;
+    }
+
+    .ContentAbout .About .WordAbout div h2 {
+        font-size: 26px;
+        line-height: 1.5;
+    }
+
+    .ContentAbout .About .WordAbout div p {
+        font-size: 17px;
+        line-height: 1.8;
+    }
+
+    .ContentAbout .moredetalis {
+        flex-direction: column;
+        gap: 28px;
+        padding: 0 4px;
+    }
+
+    .ContentAbout .moredetalis .moreimage,
+    .ContentAbout .moredetalis .contentTraniar {
+        width: 100%;
+    }
+
+    .ContentAbout .moredetalis .moreimage div:first-child {
+        width: 100%;
+    }
+
+    .ContentAbout .moredetalis .moreimage div:nth-child(2) {
+        gap: 4px;
+    }
+
+    .ContentAbout .moredetalis .moreimage div:nth-child(2) img {
+        width: calc(25% - 3px);
+        object-fit: cover;
+    }
+
+    .ContentAbout .moredetalis .contentTraniar {
+        grid-template-rows: auto;
+        gap: 18px;
+    }
+
+    .ContentAbout .moredetalis .contentTraniar div,
+    .ContentAbout .moredetalis .contentTraniar div:nth-child(2) {
+        width: 100%;
+        transform: none;
+    }
+
+    .ContentAbout .moredetalis .contentTraniar div::before {
+        display: none;
+    }
+
+    .ContentAbout .moredetalis .contentTraniar div h2 {
+        font-size: 19px;
+    }
+
+    .Contactus .Namecontact {
+        margin: 24px 0;
+    }
+
+    .Contactus .detalis {
+        height: auto;
+        min-height: 0;
+        padding: 28px 22px;
+        flex-direction: column;
+        gap: 20px;
+        overflow: hidden;
+    }
+
+    .Contactus .detalis div:first-child {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .Contactus .detalis div:first-child h2 {
+        font-size: 28px;
+        line-height: 1.5;
+    }
+
+    .Contactus .detalis div:first-child h2:nth-child(2) {
+        font-size: 20px;
+        line-height: 1.7;
+    }
+
+    .Contactus .detalis div:first-child button {
+        margin-right: 0;
+    }
+
+    .Contactus .detalis div:nth-child(2) {
+        width: 100%;
+        height: min(65vw, 340px);
+    }
+
+    .Contactus .detalis div:nth-child(2) img:first-child,
+    .Contactus .detalis div:nth-child(2) img:nth-child(2) {
+        top: 0;
+        left: 50%;
+        height: 100%;
+        transform: translateX(-50%);
+        object-fit: contain;
+    }
+
+    .Contactus .detalis div:nth-child(2) img:first-child {
+        width: 42%;
+    }
+
+    .Contactus .detalis div:nth-child(2) img:nth-child(2) {
+        width: 75%;
+    }
+
+    .Contactus .detalis .arabic {
+        display: none;
+    }
+
+    .contentQuestion .Steps div {
+        width: 100%;
+        gap: 14px;
+        padding: 14px;
+    }
+
+    .contentQuestion .Steps div p {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .Section2 {
+        gap: 32px;
+        padding: 0 14px 28px;
+    }
+
+    .Section2 .HeadName {
+        margin-top: 38px;
+    }
+
+    .Section2 .Sketch {
+        gap: 28px 16px;
+        padding: 0;
+    }
+
+    .Section2 .Sketch div span svg {
+        font-size: 72px;
+        padding: 14px;
+    }
+
+    .Section2 .Sketch div:hover {
+        transform: none;
+    }
+
+    .contentFooter {
+        gap: 28px 18px;
+        margin: 48px auto;
+        padding: 0 18px;
+    }
+
+    .contentFooter div {
+        width: calc(50% - 9px);
+    }
+
+    .contentFooter div h2 {
+        font-size: 17px;
+    }
+
+    .contentFooter div ul li a {
+        font-size: 14px;
+    }
+
+    .Cards {
+        margin: 36px 16px 0;
+        gap: 16px;
+    }
+
+    .name {
+        margin-top: 28px;
+        margin-bottom: 28px;
+        font-size: clamp(28px, 6vw, 38px);
+        line-height: 1.4;
+    }
+
+    .HeadTraning {
+        margin: 88px 18px 24px;
+        text-align: center;
+    }
+
+    .HeadTraning + .flex.mt-6,
+    .contentAbout2 + .flex.mt-6 {
+        flex-direction: column;
+        gap: 24px;
+        margin: 24px 18px 40px;
+    }
+
+    .HeadTraning + .flex.mt-6 > .image,
+    .contentAbout2 + .flex.mt-6 > .image {
+        width: 100%;
+        max-width: 100%;
+        flex: none;
+    }
+
+    .HeadTraning + .flex.mt-6 > .image img,
+    .contentAbout2 + .flex.mt-6 > .image img {
+        display: block;
+        width: 100%;
+        max-width: 520px;
+        margin: 0 auto;
+    }
+
+    .HeadTraning + .flex.mt-6 .fs-form,
+    .contentAbout2 + .flex.mt-6 .fs-form {
+        width: 100%;
+        max-width: 100%;
+        flex: none;
+        margin-top: 0;
+    }
+
+    .reviews-title {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .content {
+        padding: 7px 12px;
+    }
+
+    .content .logo {
+        width: 74px;
+    }
+
+    .content .icon .nav-toggle {
+        width: 40px;
+        height: 40px;
+    }
+
+    .content .NavLink {
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .content .NavLink ul li {
+        font-size: 16px;
+    }
+
+    .contentAbout2 {
+        min-height: 58vh;
+        min-height: 58svh;
+        padding: 100px 18px 36px;
+    }
+
+    .contentAbout2 .ggg h1 {
+        font-size: 29px;
+    }
+
+    .contentAbout2 .ggg p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .content2 {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .content2 .intro .head {
+        font-size: 25px;
+    }
+
+    .content2 .intro .btn {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .content2 .intro .btn button {
+        width: 100%;
+    }
+
+    .content2 .intro .clasified {
+        justify-content: space-around;
+        gap: 14px 8px;
+    }
+
+    .content2 .intro .clasified div .icon5 {
+        font-size: 42px;
+        padding: 8px;
+    }
+
+    .ContentAbout .About .twoimage img {
+        height: 220px;
+    }
+
+    .Contactus .detalis div:nth-child(2) {
+        height: 280px;
+    }
+
+    .Contactus .detalis div:nth-child(2) img:first-child {
+        width: 52%;
+    }
+
+    .Contactus .detalis div:nth-child(2) img:nth-child(2) {
+        width: 90%;
+    }
+
+    .Section2 .Sketch div {
+        flex-basis: 130px;
+    }
+
+    .Section2 .Sketch div span svg {
+        font-size: 62px;
+        padding: 12px;
+    }
+
+    .contentFooter {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .contentFooter div {
+        width: 100%;
+    }
+
+    .contentFooter div:first-child img {
+        max-width: 220px;
+    }
+
+    .articleCards .articleCard,
+    .courseCards .courseCard {
+        height: 400px;
+    }
+
+    .articleCards .articleCard .MuiCardMedia-root,
+    .courseCards .courseCard .MuiCardMedia-root {
+        flex-basis: 180px;
+        height: 180px;
+    }
+
+    .articleCards .articleCard .MuiTypography-h5,
+    .courseCards .courseCard .MuiTypography-h5 {
+        font-size: 18px;
+    }
+
+    .articleCards .articleCard .btnsubscription,
+    .courseCards .courseCard .btnsubscription {
+        font-size: 18px;
+    }
+
+    .whatsapp-float {
+        right: 14px;
+        bottom: max(14px, env(safe-area-inset-bottom));
+        width: 52px;
+        height: 52px;
+    }
+
+    .whatsapp-float svg {
+        width: 29px;
+        height: 29px;
+    }
+}

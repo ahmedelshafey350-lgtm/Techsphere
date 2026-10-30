@@ -1,0 +1,56 @@
+.contentAbout2 {
+    background-image: url(../../public/image/edu.jpg);
+    height: 85vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.contentAbout2 .ggg {
+    width: min(760px, calc(100% - 48px));
+    margin-inline: auto;
+    text-align: center;
+    transform: none;
+}
+
+.contentAbout2 .ggg h1 {
+    font-family: Cairo, "Cairo Fallback";
+    font-size: 48px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 48px;
+    letter-spacing: normal;
+    color: #FFFFFF;
+    margin-bottom: 5%;
+}
+
+.contentAbout2 .ggg p {
+    font-family: Cairo, "Cairo Fallback";
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 39px;
+    letter-spacing: normal;
+    color: #FFFFFF;
+}
+
+.pageBumber {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    margin-right: 1%;
+}
+
+.pageBumber button {
+    outline: none;
+    background-color: transparent;
+    padding: 5px 18px;
+    font-size: 25px;
+    border: solid #000 1px;
+    border-radius: 50%;
+}

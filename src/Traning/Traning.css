@@ -1,0 +1,344 @@
+.HeadTraning {
+    margin-top: 100px;
+    margin-right: 30px;
+    text-align: right;
+}
+
+.training-individual-page {
+    --bg-dark: #071426;
+    --bg-card: #0d1f38;
+    --electric-blue: #2563eb;
+    --highlight-cyan: #38bdf8;
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+    --success-green: #22c55e;
+    --error-red: #ef4444;
+
+    min-height: 100vh;
+    min-height: 100svh;
+    padding-top: 88px;
+    overflow-x: clip;
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    font-family: Cairo, system-ui, -apple-system, sans-serif;
+}
+
+.training-individual-page .tech-bg-grid {
+    background-image:
+        linear-gradient(to right, rgba(37, 99, 235, 0.07) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(37, 99, 235, 0.07) 1px, transparent 1px);
+    background-size: 40px 40px;
+}
+
+.training-individual-page .glow-orb-1,
+.training-individual-page .glow-orb-2 {
+    position: absolute;
+    pointer-events: none;
+    border-radius: 50%;
+}
+
+.training-individual-page .glow-orb-1 {
+    top: 0;
+    right: 15%;
+    width: min(450px, 85vw);
+    aspect-ratio: 1;
+    background: radial-gradient(circle, rgba(56, 189, 248, 0.15) 0%, rgba(37, 99, 235, 0.05) 50%, transparent 70%);
+    filter: blur(60px);
+}
+
+.training-individual-page .glow-orb-2 {
+    bottom: 0;
+    left: 10%;
+    width: min(500px, 90vw);
+    aspect-ratio: 1;
+    background: radial-gradient(circle, rgba(37, 99, 235, 0.18) 0%, rgba(7, 20, 38, 0) 70%);
+    filter: blur(80px);
+}
+
+.training-individual-page .training-site-header,
+.training-individual-page .training-demo-toolbar,
+.training-individual-page .training-main,
+.training-individual-page .training-footer {
+    position: relative;
+}
+
+.training-individual-page .training-site-header {
+    z-index: 1;
+}
+
+.training-individual-page .training-site-header > div {
+    display: flex;
+    width: min(100%, 1152px);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.training-individual-page .training-site-header > div > :last-child {
+    max-width: 100%;
+    white-space: normal;
+    text-align: center;
+}
+
+.training-individual-page .training-demo-toolbar {
+    z-index: 1;
+    width: min(1152px, calc(100% - 32px));
+    max-width: none;
+    margin: 16px auto 0;
+    align-items: flex-start;
+}
+
+.training-individual-page .training-demo-toolbar > div {
+    display: flex;
+    min-width: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+}
+
+.training-individual-page .training-demo-toolbar label {
+    min-width: 0;
+    align-items: flex-start;
+    line-height: 1.6;
+}
+
+.training-individual-page .training-main {
+    z-index: 1;
+    width: min(100%, 896px);
+    max-width: none;
+    padding: clamp(28px, 5vw, 56px) 16px 36px;
+}
+
+.training-individual-page .training-welcome {
+    width: min(100%, 576px);
+}
+
+.training-individual-page .training-welcome h1 {
+    font-size: clamp(1.7rem, 5vw, 2.25rem);
+}
+
+.training-individual-page .training-welcome p {
+    line-height: 1.9;
+}
+
+.training-individual-page .training-activation-card {
+    width: min(100%, 512px);
+    max-width: none;
+    padding: clamp(18px, 5vw, 32px);
+}
+
+.training-individual-page .glass-card {
+    background: rgba(13, 31, 56, 0.88);
+    border: 1px solid rgba(56, 189, 248, 0.18);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4), inset 0 1px 1px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+}
+
+.training-individual-page .glass-card-hover {
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.training-individual-page .glass-card-hover:hover {
+    border-color: rgba(56, 189, 248, 0.4);
+    box-shadow: 0 25px 60px rgba(37, 99, 235, 0.2), inset 0 1px 2px rgba(255, 255, 255, 0.15);
+}
+
+.training-individual-page .tech-input {
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    background: rgba(7, 20, 38, 0.6);
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.training-individual-page .tech-input:focus {
+    border-color: var(--highlight-cyan);
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.25);
+    outline: none;
+}
+
+.training-individual-page .training-name-input,
+.training-individual-page .training-code-input {
+    padding-right: 48px;
+    text-align: right;
+}
+
+.training-individual-page .training-form-fields {
+    display: grid;
+    gap: 20px;
+}
+
+.training-individual-page .training-field-icon {
+    right: 16px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.training-individual-page .training-student-id-input {
+    min-width: 0;
+    padding-right: 40px;
+    padding-left: 88px;
+}
+
+.training-individual-page .training-primary-button {
+    min-height: 52px;
+    border: 1px solid rgba(125, 211, 252, 0.55);
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 8px 22px rgba(37, 99, 235, 0.28);
+}
+
+.training-individual-page .training-primary-button:focus-visible {
+    outline: 3px solid rgba(56, 189, 248, 0.55);
+    outline-offset: 3px;
+}
+
+.training-individual-page .training-primary-button:disabled {
+    border-color: rgba(96, 165, 250, 0.3);
+    box-shadow: none;
+    cursor: not-allowed;
+}
+
+.training-individual-page .training-trust {
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 12px 24px;
+    text-align: center;
+}
+
+.training-individual-page .training-trust > div {
+    min-width: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 1.6;
+}
+
+.training-individual-page .training-footer {
+    z-index: 1;
+    line-height: 1.7;
+}
+
+.training-individual-page .training-toast {
+    width: max-content;
+    max-width: calc(100vw - 32px);
+    margin: 0 auto 20px;
+    text-align: center;
+    animation: training-toast-in 0.2s ease-out both;
+}
+
+.training-individual-page .training-help-overlay {
+    z-index: 1200;
+    overflow-y: auto;
+}
+
+@keyframes training-toast-in {
+    from {
+        opacity: 0;
+        transform: translateY(-4px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.training-individual-page .training-help-dialog {
+    width: min(100%, 448px);
+    max-height: calc(100vh - 32px);
+    max-height: calc(100dvh - 32px);
+    overflow-y: auto;
+}
+
+.training-individual-page .animate-pulse-glow {
+    animation: training-pulse-slow 4s infinite ease-in-out;
+}
+
+@keyframes training-pulse-slow {
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.9;
+    }
+
+    50% {
+        transform: scale(1.05);
+        opacity: 1;
+        filter: drop-shadow(0 0 20px rgba(56, 189, 248, 0.6));
+    }
+}
+
+.training-individual-page .animate-pop {
+    animation: training-pop-in 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+@keyframes training-pop-in {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 640px) {
+    .training-individual-page {
+        padding-top: 76px;
+    }
+
+    .training-individual-page .training-site-header {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .training-individual-page .training-site-header > div {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .training-individual-page .training-demo-toolbar {
+        width: calc(100% - 24px);
+        padding: 12px;
+    }
+
+    .training-individual-page .training-demo-toolbar > div {
+        width: 100%;
+    }
+
+    .training-individual-page .training-main {
+        padding: 32px 12px 28px;
+    }
+
+    .training-individual-page .training-welcome {
+        margin-bottom: 24px;
+    }
+
+    .training-individual-page .training-activation-card {
+        padding: 20px 16px;
+    }
+
+}
+
+@media (max-width: 380px) {
+    .training-individual-page .training-demo-toolbar {
+        font-size: 0.7rem;
+    }
+
+    .training-individual-page .training-student-id-input {
+        padding-right: 36px;
+        padding-left: 76px;
+        font-size: 0.75rem;
+        letter-spacing: 0.02em;
+    }
+
+    .training-individual-page .training-trust {
+        flex-direction: column;
+    }
+
+    .training-individual-page .training-help-dialog {
+        padding: 20px;
+    }
+}

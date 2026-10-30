@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ar">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/Techshpere%20Orbit%20Tech%20Logo.png?v=3" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ابدأ رحلتك التقنية مع Techsphere: دورات Front-End وBack-End وFull-Stack، React وJavaScript وNode.js، أتمتة n8n، الإلكترونيات، تصميم PCB والروبوتات، مع تدريب عملي وتأهيل لسوق العمل." />
+  <meta name="keywords" content="Techsphere, تك اسفير, تيك سفير, كورسات برمجة, تعلم البرمجة, تدريب برمجة, Front-End, Frontend Development, تطوير واجهات المواقع, HTML, CSS, JavaScript, React, Back-End, Backend Development, Node.js, Express, Full-Stack, تطوير مواقع الويب, n8n, أتمتة الأعمال, AI Automation, الذكاء الاصطناعي, الإلكترونيات, إلكترونيات رقمية, إلكترونيات تناظرية, تصميم PCB, تصميم الدوائر الإلكترونية, Robotics, روبوتات, تدريب تقني, تأهيل لسوق العمل, تدريب الأفراد, تدريب الشركات" />
+  <meta name="application-name" content="Techsphere" />
+  <meta name="theme-color" content="#071426" />
+  <meta property="og:site_name" content="Techsphere" />
+  <meta property="og:title" content="Techsphere | التعليم والتدريب التقني" />
+  <meta property="og:description" content="تعلم البرمجة والإلكترونيات والمهارات التقنية مع Techsphere." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Techsphere | التعليم والتدريب التقني" />
+  <meta name="twitter:description" content="دورات في البرمجة وتطوير الويب والأتمتة والإلكترونيات والروبوتات، مع تدريب عملي وتأهيل مهني." />
+  <title>Techsphere | التعليم والتدريب التقني</title>
+  <style>
+    #app-loader {
+      position: fixed;
+      inset: 0;
+      z-index: 99999;
+      display: grid;
+      place-items: center;
+      background: #071426;
+      color: #f8fafc;
+      opacity: 1;
+      visibility: visible;
+      transition: opacity 300ms ease, visibility 300ms ease;
+    }
+
+    #app-loader.is-hidden {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .app-loader-content {
+      display: grid;
+      justify-items: center;
+      gap: 18px;
+      font-family: "Cairo", Arial, sans-serif;
+    }
+
+    .app-loader-brand {
+      color: #f8fafc;
+      font-size: clamp(32px, 8vw, 48px);
+      font-weight: 800;
+      letter-spacing: 1px;
+      animation: app-loader-pulse 1.4s ease-in-out infinite;
+    }
+
+    .app-loader-spinner {
+      width: 38px;
+      height: 38px;
+      border: 3px solid rgba(255, 255, 255, 0.18);
+      border-top-color: #38bdf8;
+      border-radius: 50%;
+      animation: app-loader-spin 800ms linear infinite;
+    }
+
+    .app-loader-message {
+      color: #cbd5e1;
+      font-size: 14px;
+    }
+
+    @keyframes app-loader-spin {
+      to { transform: rotate(360deg); }
+    }
+
+    @keyframes app-loader-pulse {
+      50% { opacity: 0.68; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .app-loader-brand,
+      .app-loader-spinner {
+        animation: none;
+      }
+
+      #app-loader {
+        transition-duration: 1ms;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app-loader" role="status" aria-live="polite">
+    <div class="app-loader-content">
+      <div class="app-loader-brand">Techsphere</div>
+      <div class="app-loader-spinner" aria-hidden="true"></div>
+      <div class="app-loader-message">جاري تحميل المنصة...</div>
+    </div>
+  </div>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>

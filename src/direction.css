@@ -1,0 +1,145 @@
+html[dir="ltr"] .reviews-section {
+    direction: ltr;
+}
+
+html[dir="ltr"] .contentFooter {
+    flex-direction: row;
+}
+
+html[dir="ltr"] .content2 .intro .clasified {
+    flex-direction: row;
+}
+
+html[dir="ltr"] .ContentAbout .About {
+    flex-direction: row;
+}
+
+html[dir="ltr"] .ContentAbout .About .WordAbout,
+html[dir="ltr"] .ContentAbout .moredetalis .contentTraniar div {
+    margin-right: 0;
+    margin-left: 20px;
+    text-align: left;
+}
+
+html[dir="ltr"] .ContentAbout .moredetalis .contentTraniar div:nth-child(2) {
+    transform: translateX(-30%);
+}
+
+html[dir="ltr"] .contentQuestion .Steps div {
+    text-align: left;
+}
+
+html[dir="ltr"] .Contactus .detalis {
+    flex-direction: row;
+}
+
+html[dir="ltr"] .Contactus .detalis div:first-child {
+    margin-right: 0;
+    margin-left: 15%;
+    text-align: left;
+}
+
+html[dir="ltr"] .Contactus .detalis div:first-child button {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+html[dir="ltr"] .Contactus .detalis div:nth-child(2) img:first-child,
+html[dir="ltr"] .Contactus .detalis div:nth-child(2) img:nth-child(2) {
+    right: auto;
+    left: auto;
+}
+
+html[dir="ltr"] .Contactus .detalis div:nth-child(2) img:first-child {
+    right: 200px;
+}
+
+html[dir="ltr"] .Contactus .detalis div:nth-child(2) img:nth-child(2) {
+    right: 58px;
+}
+
+html[dir="ltr"] .payment-coupon .input-group {
+    direction: ltr;
+}
+
+html[dir="ltr"] .payment-coupon .form-control,
+html[dir="ltr"] .payment-form .fs-input,
+html[dir="ltr"] .payment-form .fs-textarea {
+    text-align: left;
+}
+
+html[dir="ltr"] .payment-coupon .form-control {
+    border-radius: 10px 0 0 10px !important;
+}
+
+html[dir="ltr"] .payment-coupon-button {
+    border-radius: 0 10px 10px 0 !important;
+}
+
+html[dir="ltr"] .profile-identity-copy p {
+    text-align: left;
+}
+
+html[dir="ltr"] .HeadTraning {
+    margin-right: 0;
+    margin-left: 30px;
+    text-align: left;
+}
+
+html[dir="ltr"] .training-individual-page .training-name-input,
+html[dir="ltr"] .training-individual-page .training-code-input {
+    padding-right: 12px;
+    padding-left: 48px;
+    text-align: left;
+}
+
+html[dir="ltr"] .training-individual-page .training-field-icon {
+    right: auto;
+    left: 16px;
+}
+
+html[dir="ltr"] .training-individual-page .training-student-id-input {
+    padding-right: 88px;
+    padding-left: 40px;
+}
+
+html[dir="ltr"] .Section2 .Sketch {
+    flex-direction: row;
+}
+
+@media (max-width: 900px) {
+    html[dir="ltr"] .Contactus .detalis div:first-child {
+        margin-left: 0;
+    }
+
+    html[dir="ltr"] .Contactus .detalis div:first-child button {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    html[dir="ltr"] .content2 .intro,
+    html[dir="ltr"] .ContentAbout .About .WordAbout {
+        margin-left: 0;
+    }
+
+    html[dir="ltr"] .ContentAbout .About {
+        flex-direction: column;
+    }
+
+    html[dir="ltr"] .Contactus .detalis {
+        flex-direction: column;
+    }
+
+    html[dir="ltr"] .Contactus .detalis div:nth-child(2) img:first-child,
+    html[dir="ltr"] .Contactus .detalis div:nth-child(2) img:nth-child(2) {
+        right: auto;
+        left: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    html[dir="ltr"] .contentFooter {
+        flex-direction: column;
+    }
+}

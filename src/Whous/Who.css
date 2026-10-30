@@ -1,0 +1,187 @@
+.ContentAbout {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1400px;
+    margin: 20px auto;
+}
+
+.ContentAbout .NameAbout {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: Cairo, "Cairo Fallback";
+    font-size: 56px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 84px;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.ContentAbout .About {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.ContentAbout .About .twoimage {
+    width: 35%;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.ContentAbout .About .twoimage img {
+    width: 50%;
+    border: solid #fff 1px;
+    border-radius: 18px;
+}
+
+.ContentAbout .About .twoimage img:nth-child(1) {
+    height: 80%;
+}
+
+.ContentAbout .About .WordAbout {
+    width: 65%;
+    text-align: right;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 20vh;
+}
+
+.ContentAbout .About .WordAbout div h2 {
+    font-family: Cairo, "Cairo Fallback";
+    font-size: 32px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 48px;
+    letter-spacing: normal;
+    color: #2950C4;
+}
+
+.ContentAbout .About .WordAbout div p {
+    font-family: Cairo, "Cairo Fallback";
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 36px;
+    letter-spacing: normal;
+    color: #606060;
+}
+
+.ContentAbout .moredetalis {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1400px;
+    margin: 20px auto;
+}
+
+.ContentAbout .moredetalis .moreimage {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+}
+
+.ContentAbout .moredetalis .moreimage div:first-child {
+    width: 90%;
+}
+
+.ContentAbout .moredetalis .moreimage div:first-child img {
+    width: 100%;
+    border: solid #fff 1px;
+    border-radius: 18px;
+}
+
+.ContentAbout .moredetalis .moreimage div:nth-child(2) {
+    width: 100%;
+    display: flex;
+}
+
+.ContentAbout .moredetalis .moreimage div:nth-child(2) img {
+    width: calc(90%/4);
+    border: solid #fff 1px;
+    border-radius: 18px;
+}
+
+.ContentAbout .moredetalis .contentTraniar {
+    width: 50%;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    gap: 24px;
+    position: relative;
+}
+
+.ContentAbout .moredetalis .contentTraniar div {
+    position: relative;
+    border: solid #000000 1px;
+    border-radius: 18px;
+    gap: 10px;
+    min-height: 160px;
+    text-align: right;
+    padding: 82px 24px 24px;
+    width: 75%;
+    box-shadow: 0px 4px 4px rgba(1, 31, 255, 0.25);
+}
+
+.ContentAbout .moredetalis .contentTraniar div:nth-child(2) {
+    transform: translateX(30%);
+}
+
+.ContentAbout .moredetalis .contentTraniar div:first-child:before {
+    content: "01";
+}
+
+.ContentAbout .moredetalis .contentTraniar div:nth-child(2)::before {
+    content: "02";
+}
+.ContentAbout .moredetalis .contentTraniar div:nth-child(3)::before {
+    content: "03";
+}
+
+.ContentAbout .moredetalis .contentTraniar div::before {
+    position: absolute;
+    top: 12px;
+    inset-inline-end: 22px;
+    font-family: Cairo, "Cairo Fallback";
+    font-size: 60px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #cbd5e1;
+    pointer-events: none;
+}
+
+.ContentAbout .moredetalis .contentTraniar div h2,
+.ContentAbout .moredetalis .contentTraniar div p {
+    position: relative;
+}
+
+.ContentAbout .moredetalis .contentTraniar div h2 {
+    font-family: Cairo, "Cairo Fallback";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 28px;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.ContentAbout .moredetalis .contentTraniar div p {
+    font-family: Cairo, "Cairo Fallback";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 26px;
+    letter-spacing: normal;
+    color: #606060;
+}

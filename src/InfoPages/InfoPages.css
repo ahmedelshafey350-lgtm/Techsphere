@@ -1,0 +1,126 @@
+.info-page {
+    min-height: 60vh;
+    padding: 130px 22px 70px;
+    background: #f4f7fc;
+    color: #172b4d;
+    font-family: Cairo, system-ui, sans-serif;
+}
+
+.info-page-heading {
+    width: min(760px, 100%);
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.info-page-heading > span {
+    color: #1672c9;
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+}
+
+.info-page-heading h1 {
+    margin: 9px 0;
+    color: #10233f;
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
+    font-weight: 800;
+}
+
+.info-page-heading p {
+    margin: 0;
+    color: #5b6b82;
+    line-height: 1.8;
+}
+
+.faq-list,
+.policy-section,
+.policy-draft-notice {
+    width: min(850px, 100%);
+    margin: 0 auto 14px;
+}
+
+.faq-item,
+.policy-section {
+    padding: 19px 21px;
+    border: 1px solid #dfe8f3;
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0 8px 24px rgba(18, 45, 80, 0.05);
+}
+
+.faq-item summary {
+    color: #162b49;
+    cursor: pointer;
+    font-weight: 800;
+    line-height: 1.7;
+}
+
+.faq-item p,
+.policy-section p {
+    margin: 12px 0 0;
+    color: #52657e;
+    line-height: 1.9;
+}
+
+.faq-item[open] summary {
+    color: #1468d4;
+}
+
+.policy-draft-notice {
+    padding: 15px 18px;
+    border: 1px solid #facc15;
+    border-radius: 12px;
+    background: #fffbeb;
+    color: #854d0e;
+    line-height: 1.8;
+}
+
+.policy-section h2 {
+    margin: 0;
+    color: #162b49;
+    font-size: 1.14rem;
+}
+
+.policy-page .policy-section {
+    margin-bottom: 14px;
+}
+
+html[data-theme="dark"] .info-page {
+    background: #0b1120;
+    color: #e5e7eb;
+}
+
+html[data-theme="dark"] .info-page-heading h1,
+html[data-theme="dark"] .faq-item summary,
+html[data-theme="dark"] .policy-section h2 {
+    color: #f3f4f6;
+}
+
+html[data-theme="dark"] .info-page-heading p,
+html[data-theme="dark"] .faq-item p,
+html[data-theme="dark"] .policy-section p {
+    color: #cbd5e1;
+}
+
+html[data-theme="dark"] .faq-item,
+html[data-theme="dark"] .policy-section {
+    border-color: #374151;
+    background: #182235;
+}
+
+html[data-theme="dark"] .policy-draft-notice {
+    border-color: #854d0e;
+    background: #422006;
+    color: #fde68a;
+}
+
+@media (max-width: 600px) {
+    .info-page {
+        padding: 110px 15px 48px;
+    }
+
+    .faq-item,
+    .policy-section {
+        padding: 16px;
+    }
+}

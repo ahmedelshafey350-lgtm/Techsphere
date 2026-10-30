@@ -1,0 +1,106 @@
+.Contactus button {
+    outline: none;
+    border: none;
+}
+
+.Contactus {
+    max-width: 1350px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Contactus .Namecontact {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.Contactus .detalis {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 100%;
+    background-color: #2243A4;
+    height: 40vh;
+    border: solid #fff 1px;
+    border-radius: 22px;
+    position: relative;
+}
+
+.Contactus .detalis div:first-child {
+    width: 50%;
+    text-align: right;
+    margin-right: 15%;
+}
+
+.Contactus .detalis div:first-child h2 {
+    font-family: Cairo, "Cairo Fallback";
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 40px;
+    letter-spacing: normal;
+    color: #FFFFFF;
+}
+
+.Contactus .detalis div:first-child h2:nth-child(2) {
+    font-family: Cairo, "Cairo Fallback";
+    font-size: 26px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 39px;
+    letter-spacing: normal;
+    color: #FFFFFF;
+}
+
+.Contactus .detalis div:first-child button {
+    padding: 15px;
+    font-family: Cairo, "Cairo Fallback";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: normal;
+    color: #FFFFFF;
+    margin-right: 30px;
+    background-color: transparent;
+    border: solid #fff 1px;
+    border-radius: 28px;
+    letter-spacing: 2.5px;
+    margin-top: 10px;
+}
+
+.Contactus .detalis div:nth-child(2) {
+    width: 50%;
+    position: relative;
+}
+
+.Contactus .detalis div:nth-child(2) img:first-child {
+    width: 45%;
+    position: absolute;
+    top: -340px;
+    left: 200px;
+    z-index: 100;
+}
+
+.Contactus .detalis div:nth-child(2) img:nth-child(2) {
+    width: 80%;
+    position: absolute;
+    top: -313px;
+    left: 58px;
+}
+
+.Contactus .detalis .arabic {
+    width: 15%;
+    position: absolute;
+    right: 0;
+}
+
+.Contactus .detalis .arabic img {
+    width: 100%;
+}

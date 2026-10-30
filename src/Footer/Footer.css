@@ -1,0 +1,42 @@
+.contentFooter {
+    max-width: 1400px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.contentFooter div {
+    width: 25%;
+}
+
+.contentFooter div h2 {
+    font-family: Cairo, "Cairo Fallback";
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 28px;
+    letter-spacing: normal;
+    color: #023be8;
+}
+.contentFooter div ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+}
+.contentFooter div ul li a {
+    font-family: Cairo, "Cairo Fallback";
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.contentFooter div:first-child img {
+    width: 100%;
+}

@@ -1,0 +1,71 @@
+.reviews-section {
+    background-color: #f8fafc;
+    direction: rtl;
+}
+
+.reviews-title {
+    color: #0f172a;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.reviews-subtitle {
+    color: #64748b;
+    margin-top: 12px;
+}
+
+.review-card {
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    background-color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+.review-avatar {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    border-radius: 50%;
+    background-color: #0d6efd;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.review-name {
+    color: #0f172a;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.review-stars {
+    color: #f59e0b;
+    font-size: 1.15rem;
+    letter-spacing: 2px;
+    direction: ltr;
+}
+
+.review-feedback {
+    color: #475569;
+    line-height: 1.9;
+    font-size: 0.95rem;
+    min-height: 80px;
+}
+
+.review-course {
+    display: inline-block;
+    background-color: #eff6ff;
+    color: #1d4ed8;
+    padding: 7px 12px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}

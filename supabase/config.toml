@@ -1,0 +1,14 @@
+[functions.activate-individual]
+verify_jwt = false
+
+[functions.verify-jobs-access]
+verify_jwt = false
+
+[functions.submit-request]
+verify_jwt = false
+
+[functions.submit-review]
+verify_jwt = false
+
+[functions.admin-requests]
+verify_jwt = false

@@ -1,0 +1,205 @@
+html[data-theme="dark"] {
+    color-scheme: dark;
+    --back-ground-color: #111827;
+    --secondry-color: #d1d5db;
+    background: #0b1120;
+    color: #e5e7eb;
+}
+
+html[data-theme="dark"] body {
+    background: #0b1120;
+    color: #e5e7eb;
+}
+
+html[data-theme="dark"] .contentAbout2 {
+    background-image:
+        linear-gradient(rgba(7, 17, 35, 0.6), rgba(7, 17, 35, 0.72)),
+        url("/image/edu.jpg");
+}
+
+html[data-theme="dark"] .ContentAbout .NameAbout,
+html[data-theme="dark"] .contentQuestion .NameHead,
+html[data-theme="dark"] .name,
+html[data-theme="dark"] .ContentAbout .moredetalis .contentTraniar div h2 {
+    color: #f3f4f6;
+}
+
+html[data-theme="dark"] .ContentAbout .About .WordAbout div p,
+html[data-theme="dark"] .ContentAbout .moredetalis .contentTraniar div p,
+html[data-theme="dark"] .contentQuestion .Steps div p {
+    color: #cbd5e1;
+}
+
+html[data-theme="dark"] .ContentAbout .moredetalis .contentTraniar div,
+html[data-theme="dark"] .contentQuestion .Steps div {
+    border-color: #374151;
+    background: #111827;
+}
+
+html[data-theme="dark"] .reviews-section {
+    background-color: #0b1120;
+}
+
+html[data-theme="dark"] .reviews-title,
+html[data-theme="dark"] .review-name {
+    color: #f3f4f6;
+}
+
+html[data-theme="dark"] .reviews-subtitle,
+html[data-theme="dark"] .review-feedback {
+    color: #cbd5e1;
+}
+
+html[data-theme="dark"] .review-card,
+html[data-theme="dark"] .articleCard,
+html[data-theme="dark"] .courseCard {
+    border-color: #374151;
+    background: #182235;
+    color: #e5e7eb;
+}
+
+html[data-theme="dark"] .review-course {
+    background: #1e3a5f;
+    color: #bfdbfe;
+}
+
+html[data-theme="dark"] .contentFooter div ul li a {
+    color: #d1d5db;
+}
+
+html[data-theme="dark"] .contentFooter div h2 {
+    color: #60a5fa;
+}
+
+html[data-theme="dark"] .Contactus .Namecontact,
+html[data-theme="dark"] .HeadTraning,
+html[data-theme="dark"] .HeadTraning h1,
+html[data-theme="dark"] .HeadTraning p {
+    color: #e5e7eb;
+}
+
+html[data-theme="dark"] .fs-form .fs-label,
+html[data-theme="dark"] .fs-form .fs-description {
+    color: #d1d5db;
+}
+
+html[data-theme="dark"] .fs-form .fs-input,
+html[data-theme="dark"] .fs-form .fs-textarea,
+html[data-theme="dark"] .fs-form input,
+html[data-theme="dark"] .fs-form textarea,
+html[data-theme="dark"] .fs-form select,
+html[data-theme="dark"] .form-control {
+    border-color: #475569;
+    background-color: #111827;
+    color: #f3f4f6;
+}
+
+html[data-theme="dark"] .fs-form .fs-input::placeholder,
+html[data-theme="dark"] .fs-form .fs-textarea::placeholder,
+html[data-theme="dark"] .fs-form input::placeholder,
+html[data-theme="dark"] .fs-form textarea::placeholder,
+html[data-theme="dark"] .form-control::placeholder {
+    color: #94a3b8;
+}
+
+html[data-theme="dark"] .login-page,
+html[data-theme="dark"] .profile-page,
+html[data-theme="dark"] .individual-form-page {
+    --login-ink: #e5e7eb;
+    --login-muted: #aab8ca;
+    --profile-ink: #e5e7eb;
+    --profile-muted: #aab8ca;
+    --individual-form-ink: #e5e7eb;
+    --individual-form-muted: #aab8ca;
+    background-color: #0b1120;
+    background-image:
+        radial-gradient(ellipse at 82% 18%, rgba(32, 185, 232, 0.1), transparent 34%),
+        radial-gradient(ellipse at 8% 90%, rgba(23, 105, 210, 0.08), transparent 34%);
+    color: #e5e7eb;
+}
+
+html[data-theme="dark"] .login-card,
+html[data-theme="dark"] .profile-card,
+html[data-theme="dark"] .individual-form-card {
+    border-color: #374151;
+    background: #182235;
+    color: #e5e7eb;
+}
+
+html[data-theme="dark"] .login-input-wrap,
+html[data-theme="dark"] .profile-avatar-upload,
+html[data-theme="dark"] .profile-secondary-action {
+    border-color: #475569;
+    background: #111827;
+    color: #e5e7eb;
+}
+
+html[data-theme="dark"] .profile-alert-info {
+    border-color: #1e40af;
+    background: #172554;
+    color: #bfdbfe;
+}
+
+html[data-theme="dark"] .profile-alert-success {
+    border-color: #166534;
+    background: #052e16;
+    color: #bbf7d0;
+}
+
+html[data-theme="dark"] .profile-detail-icon,
+html[data-theme="dark"] .individual-form-student-id {
+    border-color: #1e40af;
+    background: #172554;
+    color: #bfdbfe;
+}
+
+html[data-theme="dark"] .individual-training-form .fs-input,
+html[data-theme="dark"] .individual-training-form .fs-textarea,
+html[data-theme="dark"] .login-input-wrap:focus-within {
+    border-color: #475569;
+    background: #111827;
+    color: #f3f4f6;
+}
+
+html[data-theme="dark"] .payment-page {
+    --payment-text: #e5e7eb;
+    --payment-muted: #aab8ca;
+    --payment-border: #374151;
+    --payment-surface: #182235;
+    --payment-background: #0b1120;
+}
+
+html[data-theme="dark"] .payment-course {
+    background: #111827;
+}
+
+html[data-theme="dark"] .payment-coupon .form-control {
+    color: #f3f4f6;
+}
+
+html[data-theme="dark"] .MuiPaper-root {
+    background-color: #182235;
+    color: #e5e7eb;
+}
+
+html[data-theme="dark"] .MuiTypography-root {
+    color: inherit;
+}
+
+html[data-theme="dark"] .MuiSvgIcon-root {
+    color: inherit;
+}
+
+html[data-theme="dark"] .pageBumber button {
+    border-color: #64748b;
+    color: #e5e7eb;
+}
+
+html[data-theme="dark"] .Contactus .detalis {
+    border-color: #374151;
+}
+
+html[data-theme="dark"] ::selection {
+    background: #1d4ed8;
+    color: #fff;
+}
