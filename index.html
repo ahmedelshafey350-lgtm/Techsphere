@@ -3,6 +3,13 @@
 
 <head>
   <meta charset="UTF-8" />
+  <script>
+    const restoredRoute = new URLSearchParams(window.location.search).get("p");
+    if (restoredRoute?.startsWith("/") && !restoredRoute.startsWith("//")) {
+      const basePath = "/Techsphere/".replace(/\/$/, "");
+      window.history.replaceState(null, "", `${basePath}${restoredRoute}`);
+    }
+  </script>
   <link rel="icon" type="image/png" href="/Techsphere/Techshpere%20Orbit%20Tech%20Logo.png?v=3" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
