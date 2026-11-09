@@ -1,6 +1,6 @@
 import React from 'react'
 import reviews from './Feedback'
-import './feed.css'
+import './Feed.css'
 
 import { useState } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
@@ -24,7 +24,7 @@ function PageFeedback() {
   const isEnglish = language === 'en';
 
   return (
-    <section className="reviews-section py-5">
+    <section className="reviews-section py-5" dir={isEnglish ? "ltr" : "rtl"}>
       <Container>
         <VerifiedReviews />
         <div className="text-center mb-5">
