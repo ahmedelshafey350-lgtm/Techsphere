@@ -3,7 +3,14 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/png" href="/Techshpere%20Orbit%20Tech%20Logo.png?v=3" />
+  <script>
+    const restoredRoute = new URLSearchParams(window.location.search).get("p");
+    if (restoredRoute?.startsWith("/") && !restoredRoute.startsWith("//")) {
+      const basePath = "%BASE_URL%".replace(/\/$/, "");
+      window.history.replaceState(null, "", `${basePath}${restoredRoute}`);
+    }
+  </script>
+  <link rel="icon" type="image/png" href="%BASE_URL%Techshpere%20Orbit%20Tech%20Logo.png?v=3" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">

@@ -238,8 +238,8 @@ function FormIndivual() {
                                         {state.errors.getAllFieldErrors().map(([field, fieldErrors]) => (
                                             <p key={`field-error-${field}`}>
                                                 {language === 'en'
-                                                    ? `${({ name: 'Name', email: 'Email address', phone: 'Phone number', portfolio: 'Portfolio', message: 'Message' })[field] || field}: ${fieldErrors.map((fieldError) => fieldError.message).join(', ')}`
-                                                    : `${field}: ${fieldErrors.map((fieldError) => fieldError.message).join(', ')}`}
+                                                    ? `${({ Name: 'Name', email: 'Email address', phone: 'Phone number', portfolio: 'Portfolio', message: 'Message' })[field] || field}: ${fieldErrors.map((fieldError) => fieldError.message).join(', ')}`
+                                                    : `${({ name: 'الاسم', email: 'البريد الإلكتروني', phone: 'رقم الهاتف', portfolio: 'معرض الأعمال', message: 'الرسالة' })[field] || field}: ${fieldErrors.map((fieldError) => fieldError.message).join(', ')}`}
                                             </p>
                                         ))}
                                     </div>

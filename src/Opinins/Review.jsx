@@ -5,7 +5,6 @@ import '../Feedback/Feed.css'
 import { useState } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import '../About/About.css'
-import Footer from "../Footer/Footer"
 import { useLanguage } from "../i18n/language";
 import VerifiedReviews from "../Feedback/VerifiedReviews";
 const arabicCourseNames = {
@@ -22,15 +21,15 @@ function Review() {
     const [reviewsCustomer] = useState(reviews);
     const { language } = useLanguage();
     const isEnglish = language === 'en';
-    
-    return (
 
+    return (
         <>
+            <main className="reviews-page" dir={isEnglish ? "ltr" : "rtl"}>
             <div className='contentAbout2'>
                 <div className='ggg'>
-                    <h1>{isEnglish ? 'Our students’ stories: success worth sharing' : 'قصص طلابنا - نجاح يُروى بثقة'}</h1>
+                    <h1>{isEnglish ? "Our students' stories: success worth sharing" : 'قصص طلابنا - نجاح يُروى بثقة'}</h1>
                     <p>{isEnglish
-                        ? 'At TechSphere, learning does not end with a diploma—it marks the beginning of new steps toward professional growth. Here, we share our students’ inspiring feedback and experiences, and how knowledge and hands-on training helped them move closer to their goals with confidence.'
+                        ? 'At TechSphere, learning does not end with a diploma—it marks the beginning of new steps toward professional growth. Here, we share our students\' inspiring feedback and experiences, and how knowledge and hands-on training helped them move closer to their goals with confidence.'
                         : 'في تك اسفير، لا تنتهي رحلة التعلّم بانتهاء الدبلومة ، بل تبدأ معها خطوات جديدة نحو التطور المهني. هنا نشارك آراء طلابنا وتجاربهم الملهمة، وكيف ساعدتهم المعرفة والتدريب العملي على الاقتراب من أهدافهم بثقة.'}</p>
                 </div>
             </div>
@@ -73,11 +72,11 @@ function Review() {
                                 </Card>
                             </Col>
                         ))}
-                       
+
                     </Row>
                 </Container>
             </section>
-            <Footer />
+            </main>
         </>
     )
 }

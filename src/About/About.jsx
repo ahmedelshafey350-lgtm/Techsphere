@@ -11,8 +11,8 @@ function About() {
     const isEnglish = language === 'en';
 
     return (
-
         <>
+            <main className="about-page" dir={isEnglish ? "ltr" : "rtl"}>
             <div className='contentAbout2'>
                 <div className='ggg'>
                     <h1>{isEnglish ? 'Who is TechSphere?' : <>من هي <bdi dir="ltr">Techsphere</bdi>؟</>}</h1>
@@ -21,8 +21,8 @@ function About() {
                         : 'في  تك اسفير لا نقدّم دورات تدريبية فحسب، بل نبني رحلة تعليمية متكاملة تبدأ من اكتساب المهارة، وتمتد إلى التطبيق العملي والاستعداد الحقيقي لسوق العمل في مجالات البرمجة والتكنولوجيا والذكاء الاصطناعي والالكترونيات.'}</p>
                 </div>
             </div>
+            </main>
             <Who_us/>
-            <Footer />
         </>
     )
 }

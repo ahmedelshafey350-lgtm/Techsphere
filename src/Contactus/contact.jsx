@@ -1,11 +1,13 @@
 import React from 'react'
 import './contactus.css'
 import { useLanguage } from "../i18n/language";
+import { publicAsset } from "../utils/publicAsset.js";
 function Contact() {
     const { language } = useLanguage();
     const isEnglish = language === 'en';
 
     return (
+        <main className="contactus-page" dir={isEnglish ? "ltr" : "rtl"}>
         <div className='Contactus'>
             <div className='Namecontact'>
                 <h1>{isEnglish ? 'Contact us' : 'تواصل معنا'}</h1>
@@ -18,15 +20,16 @@ function Contact() {
                     <button>{isEnglish ? 'Contact us now' : 'تواصل معنا الان'}</button>
                 </div>
                 <div>
-                    <img src="../../public/image/mob_frame.webp" alt="" />
-                    <img src="../../public/image/mon_person.webp" alt="" />
+                    <img src={publicAsset('image/mob_frame.webp')} alt="" />
+                    <img src={publicAsset('image/mon_person.webp')} alt="" />
                 </div>
                 <div className='arabic'>
-                    <img src="../../public/image/arabic_shape.webp" alt="" />
+                    <img src={publicAsset('image/arabic_shape.webp')} alt="" />
                 </div>
             </div>
            
         </div>
+        </main>
     )
 }
 

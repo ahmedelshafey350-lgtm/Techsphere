@@ -1,46 +1,45 @@
 import React from "react";
-import Footer from "../Footer/Footer";
 import { useLanguage } from "../i18n/language";
 import "./InfoPages.css";
 
 const faqItems = [
     {
-        question: { ar: "إزاي أطلب الاشتراك في كورس؟", en: "How do I request course enrollment?" },
+        question: { ar: "إزاي أطلب الاشتراك في كورس", en: "How do I request course enrollment?" },
         answer: {
-            ar: "سجّل الدخول إلى حسابك، اختر الكورس، ثم أرسل بيانات طلب الاشتراك. سيظهر الطلب في صفحة حسابك ويمكنك متابعة حالته هناك.",
+            ar: "سجّل الدخول إلى حسابك، اختر الكورس، ثم أرسل بيانات طلب الاشتراك. سيظهر الطلب في صفحة حسابك ويمكنك متابعة حالته هنا.",
             en: "Sign in, choose a course, and submit your enrollment request. You can follow its status from your account page.",
         },
     },
     {
-        question: { ar: "إمتى أتواصل مع فريق التدريب؟", en: "When will the training team contact me?" },
+        question: { ar: "إمتى أتواصل مع فريق التدريب", en: "When will the training team contact me?" },
         answer: {
             ar: "بعد مراجعة الطلب، ستظهر حالته في حسابك. استخدم بيانات التواصل المنشورة بالموقع إذا احتجت متابعة مباشرة.",
             en: "After review, the request status will appear in your account. Use the contact details on the site if you need to follow up directly.",
         },
     },
     {
-        question: { ar: "هل المسارات في صفحة الوظائف شواغر مؤكدة؟", en: "Are the career paths confirmed vacancies?" },
+        question: { ar: "هل المسارات في صفحة الوظائف شواغر مؤكدةة", en: "Are the career paths confirmed vacancies?" },
         answer: {
             ar: "لا. هي أمثلة لمسميات ومهارات مهنية مرتبطة بالكورسات، وليست إعلانًا عن وظيفة متاحة أو ضمانًا للتوظيف.",
             en: "No. They are examples of roles and skills related to courses, not confirmed vacancies or a guarantee of employment.",
         },
     },
     {
-        question: { ar: "مين يقدر يقدم على مسار مهني؟", en: "Who can apply for a career path?" },
+        question: { ar: "مين يقدر يقدم على مسار مهنية", en: "Who can apply for a career path?" },
         answer: {
             ar: "يتطلب التقديم تسجيل الدخول إلى حساب ببريد مؤكد، ثم إدخال الرمز السري الذي يشاركه مالك المنصة. إرسال الطلب لا يعني وجود شاغر مؤكد.",
             en: "Applications require a signed-in account with a confirmed email and the access code shared by the platform owner. Applying does not imply a confirmed vacancy.",
         },
     },
     {
-        question: { ar: "إزاي أضيف تقييم موثّق؟", en: "How do I submit a verified review?" },
+        question: { ar: "إزاي أضيف تقييم موثّقة", en: "How do I submit a verified review?" },
         answer: {
             ar: "التقييم متاح للحسابات المفعّلة لتدريب الأفراد. يراجعه فريق الإدارة قبل ظهوره، والتوثيق هنا يعني تفعيل الحساب وليس إثبات شراء الكورس.",
             en: "Reviews are available to accounts activated for individual training. The team reviews each submission before publishing. Verification here means account activation, not proof of course purchase.",
         },
     },
     {
-        question: { ar: "نسيت كلمة المرور، أعمل إيه؟", en: "What if I forgot my password?" },
+        question: { ar: "نسيت كلمة المرور، أعمل إيهة", en: "What if I forgot my password?" },
         answer: {
             ar: "استخدم خيار استعادة كلمة المرور في صفحة تسجيل الدخول واتبع رابط الرسالة التي تصلك على بريد الحساب.",
             en: "Use the password recovery option on the sign-in page and follow the link sent to your account email.",
@@ -71,7 +70,6 @@ export function FAQPage() {
                     ))}
                 </section>
             </main>
-            <Footer />
         </>
     );
 }
@@ -117,7 +115,6 @@ export function PoliciesPage() {
                         : "تُرسل التقييمات الموثقة من حسابات طلاب مفعّلة ولا تُنشر إلا بعد مراجعتها. هذا التوثيق لا يثبت وحده شراء كورس مدفوع. المسارات المهنية استرشادية ولا تضمن وظيفة ولا تمثل شواغر مؤكدة."}</p>
                 </section>
             </main>
-            <Footer />
         </>
     );
 }

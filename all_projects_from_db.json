@@ -1,0 +1,22 @@
+[
+    {
+        "id":  "04534f9a-e8e5-469e-b360-15deae2f55e3",
+        "project_code":  "TXH-ESP-001",
+        "title_en":  "AI CNC Tool Wear Monitor",
+        "slug":  "esp32-iot-01",
+        "category_id":  "b587dbd8-b7fd-4a94-8dd3-90a5ab8cd9a9",
+        "public_description_en":  "Detailed architecture describes on-device vibration analysis, FFT sampling, and cloud telemetry.",
+        "difficulty":  "advanced",
+        "source_document":  "Inventory ID: esp32-iot-01 | Source PDF: Advanced ESP32 \u0026 Full-Stack IoT Engineering Projects.pdf | Source page: PDF p.1 | Confidence: High: source title/listing; Source advertises 35 projects but the displayed matrix lists only projects 1–10; other 25 are omitted, not invented.; Likely conceptual overlap with arduino-embedded-10; kept separate under source-local IDs. | Sale price requires administrator review; imported as an unpublished draft."
+    },
+    {
+        "id":  "9d273165-c59b-4821-b8a4-cea2da46ccb5",
+        "project_code":  "TXH-DLG-003",
+        "title_en":  "Half Subtractor",
+        "slug":  "digital-logic-03",
+        "category_id":  "4e18f982-7255-4eca-b41b-d983f3a1307c",
+        "public_description_en":  "Subtracts two bits and exposes difference and borrow.",
+        "difficulty":  null,
+        "source_document":  "Inventory ID: digital-logic-03 | Source PDF: Digital_Logic_Projects_Catalog_AR.pdf | Source page: PDF p.1 | Confidence: High: source title/listing | Sale price requires administrator review; imported as an unpublished draft."
+    }
+]

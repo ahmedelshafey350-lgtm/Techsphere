@@ -101,7 +101,7 @@ const Education = [
         id: 5,
 
         icon: <FlightTakeoffOutlined />,
-        Title: " تاثيرات ",
+        Title: "التأهيل المهني",
         TitleEn: "Career Preparation",
         Head:"التأهيل المهني و المهارات الشخصية لسوق العمل",
         HeadEn: "Career preparation and soft skills for the job market",

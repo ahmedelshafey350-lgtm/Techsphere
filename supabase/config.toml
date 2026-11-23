@@ -12,3 +12,9 @@ verify_jwt = false
 
 [functions.admin-requests]
 verify_jwt = false
+
+[functions.service-projects]
+verify_jwt = false
+
+[functions.admin-image-import]
+verify_jwt = false

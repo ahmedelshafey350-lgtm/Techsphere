@@ -14,7 +14,7 @@ html[data-theme="dark"] body {
 html[data-theme="dark"] .contentAbout2 {
     background-image:
         linear-gradient(rgba(7, 17, 35, 0.6), rgba(7, 17, 35, 0.72)),
-        url("/image/edu.jpg");
+        var(--about-background-image);
 }
 
 html[data-theme="dark"] .ContentAbout .NameAbout,

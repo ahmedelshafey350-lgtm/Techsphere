@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+supabase-backup/
+
+admin_token*.txt
+all_projects*.json
+*_report*.json
+
+.env.local

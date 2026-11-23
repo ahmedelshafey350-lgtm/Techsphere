@@ -1,145 +1,417 @@
-html[dir="ltr"] .reviews-section {
+/* ============================================================================
+   RTL/LTR LAYOUT SYSTEM - TechSphere
+   ============================================================================ */
+
+/* Base direction handling */
+html[dir="rtl"] {
+    direction: rtl;
+}
+
+html[dir="ltr"] {
     direction: ltr;
 }
 
-html[dir="ltr"] .contentFooter {
+/* Logical property shims for browsers that need them */
+[dir="rtl"] .text-start, [dir="rtl"] .text-left { text-align: right !important; }
+[dir="rtl"] .text-end, [dir="rtl"] .text-right { text-align: left !important; }
+[dir="ltr"] .text-start { text-align: left !important; }
+[dir="ltr"] .text-end { text-align: right !important; }
+
+[dir="rtl"] .ms-auto { margin-inline-start: auto !important; margin-inline-end: 0 !important; }
+[dir="rtl"] .me-auto { margin-inline-end: auto !important; margin-inline-start: 0 !important; }
+
+/* ============================================================================
+   HEADER RTL
+   ============================================================================ */
+
+html[dir="rtl"] .content .logo {
+    margin-inline-end: 0;
+    margin-inline-start: 10px;
+}
+
+html[dir="rtl"] .content .NavLink ul {
     flex-direction: row;
 }
 
-html[dir="ltr"] .content2 .intro .clasified {
+html[dir="rtl"] .content .icon {
     flex-direction: row;
+    margin-inline-start: 0;
+    margin-inline-end: 10px;
 }
 
-html[dir="ltr"] .ContentAbout .About {
-    flex-direction: row;
+html[dir="rtl"] .mega-arrow {
+    margin-left: 0;
+    margin-right: 4px;
+    transform: rotate(180deg);
 }
 
-html[dir="ltr"] .ContentAbout .About .WordAbout,
-html[dir="ltr"] .ContentAbout .moredetalis .contentTraniar div {
-    margin-right: 0;
-    margin-left: 20px;
-    text-align: left;
+html[dir="rtl"] .courses-nav-link,
+html[dir="rtl"] .explore-nav-link {
+    flex-direction: row-reverse;
 }
 
-html[dir="ltr"] .ContentAbout .moredetalis .contentTraniar div:nth-child(2) {
-    transform: translateX(-30%);
-}
-
-html[dir="ltr"] .contentQuestion .Steps div {
-    text-align: left;
-}
-
-html[dir="ltr"] .Contactus .detalis {
-    flex-direction: row;
-}
-
-html[dir="ltr"] .Contactus .detalis div:first-child {
-    margin-right: 0;
-    margin-left: 15%;
-    text-align: left;
-}
-
-html[dir="ltr"] .Contactus .detalis div:first-child button {
-    margin-right: 0;
-    margin-left: 30px;
-}
-
-html[dir="ltr"] .Contactus .detalis div:nth-child(2) img:first-child,
-html[dir="ltr"] .Contactus .detalis div:nth-child(2) img:nth-child(2) {
-    right: auto;
+html[dir="rtl"] .mega-menu {
     left: auto;
+    right: 0;
+    transform: translateY(-10px);
 }
 
-html[dir="ltr"] .Contactus .detalis div:nth-child(2) img:first-child {
-    right: 200px;
+html[dir="rtl"] .mega-menu.open,
+html[dir="rtl"] .mega-menu:hover,
+html[dir="rtl"] .mega-menu-item:hover .mega-menu {
+    transform: translateY(0);
 }
 
-html[dir="ltr"] .Contactus .detalis div:nth-child(2) img:nth-child(2) {
-    right: 58px;
+html[dir="rtl"] .mega-menu-body {
+    flex-direction: row-reverse;
 }
 
-html[dir="ltr"] .payment-coupon .input-group {
-    direction: ltr;
+html[dir="rtl"] .mega-filters {
+    border-right: none;
+    border-left: 1px solid #e2e8f0;
+    padding-right: 0;
+    padding-left: 20px;
 }
 
-html[dir="ltr"] .payment-coupon .form-control,
-html[dir="ltr"] .payment-form .fs-input,
-html[dir="ltr"] .payment-form .fs-textarea {
-    text-align: left;
+html[dir="rtl"] .filter-list li {
+    text-align: right;
 }
 
-html[dir="ltr"] .payment-coupon .form-control {
-    border-radius: 10px 0 0 10px !important;
+html[dir="rtl"] .mega-course-footer {
+    flex-direction: row-reverse;
 }
 
-html[dir="ltr"] .payment-coupon-button {
-    border-radius: 0 10px 10px 0 !important;
+html[dir="rtl"] .explore-menu {
+    left: auto;
+    right: 0;
 }
 
-html[dir="ltr"] .profile-identity-copy p {
-    text-align: left;
+html[dir="rtl"] .explore-list {
+    flex-direction: row-reverse;
 }
 
-html[dir="ltr"] .HeadTraning {
+html[dir="rtl"] .language-switch {
+    direction: rtl;
+}
+
+html[dir="rtl"] .account-button {
+    flex-direction: row-reverse;
+    padding: 4px 14px 4px 10px;
+}
+
+html[dir="rtl"] .account-button-name {
+    text-align: right;
+}
+
+html[dir="rtl"] .nav-toggle svg {
+    transform: rotate(180deg);
+}
+
+/* Mobile header RTL */
+@media (max-width: 900px) {
+    html[dir="rtl"] .content .NavLink {
+        right: auto;
+        left: 0;
+    }
+    
+    html[dir="rtl"] .content .NavLink ul li a {
+        padding: 10px 8px;
+        text-align: right;
+    }
+    
+    html[dir="rtl"] .content .icon {
+        margin-inline-end: 0;
+        margin-inline-start: 0;
+    }
+    
+    html[dir="rtl"] .content .icon .nav-toggle {
+        order: -1;
+    }
+}
+
+/* ============================================================================
+   FOOTER RTL
+   ============================================================================ */
+
+html[dir="rtl"] .footer-column h3::after {
+    left: auto;
+    right: 0;
+}
+
+html[dir="rtl"] .footer-column li a:hover {
+    padding-left: 0;
+    padding-right: 8px;
+}
+
+html[dir="rtl"] .footer-social {
+    margin-left: auto;
     margin-right: 0;
-    margin-left: 30px;
-    text-align: left;
 }
 
-html[dir="ltr"] .training-individual-page .training-name-input,
-html[dir="ltr"] .training-individual-page .training-code-input {
-    padding-right: 12px;
-    padding-left: 48px;
-    text-align: left;
+html[dir="rtl"] .footer-bottom-content {
+    flex-direction: row-reverse;
 }
 
-html[dir="ltr"] .training-individual-page .training-field-icon {
-    right: auto;
-    left: 16px;
+html[dir="rtl"] .newsletter {
+    flex-direction: row-reverse;
 }
 
-html[dir="ltr"] .training-individual-page .training-student-id-input {
-    padding-right: 88px;
-    padding-left: 40px;
+/* ============================================================================
+   BUTTONS & FORMS RTL
+   ============================================================================ */
+
+html[dir="rtl"] .fs-button,
+html[dir="rtl"] .project-button,
+html[dir="rtl"] .btn {
+    /* Buttons keep their visual style but text aligns with content */
 }
 
-html[dir="ltr"] .Section2 .Sketch {
-    flex-direction: row;
+html[dir="rtl"] .fs-input,
+html[dir="rtl"] .fs-textarea,
+html[dir="rtl"] .form-control,
+html[dir="rtl"] input,
+html[dir="rtl"] textarea,
+html[dir="rtl"] select {
+    text-align: right;
+    padding-inline-start: 12px;
+    padding-inline-end: 40px;
 }
+
+html[dir="rtl"] .fs-input::placeholder,
+html[dir="rtl"] .fs-textarea::placeholder,
+html[dir="rtl"] input::placeholder,
+html[dir="rtl"] textarea::placeholder {
+    text-align: right;
+}
+
+html[dir="rtl"] .fs-field .fs-label {
+    text-align: right;
+    display: block;
+    margin-inline-end: 8px;
+}
+
+html[dir="rtl"] .login-button,
+html[dir="rtl"] .account-button {
+    text-align: center;
+}
+
+/* ============================================================================
+   CARDS & GRIDS RTL
+   ============================================================================ */
+
+html[dir="rtl"] .courseCard,
+html[dir="rtl"] .articleCard,
+html[dir="rtl"] .mega-course-card,
+html[dir="rtl"] .review-card {
+    text-align: right;
+}
+
+html[dir="rtl"] .courseCards,
+html[dir="rtl"] .articleCards,
+html[dir="rtl"] .course-grid {
+    /* Grid is direction-agnostic, but content inside cards should align right */
+}
+
+html[dir="rtl"] .mega-course-info {
+    text-align: right;
+}
+
+html[dir="rtl"] .mega-course-title,
+html[dir="rtl"] .mega-course-desc,
+html[dir="rtl"] .mega-course-category {
+    text-align: right;
+}
+
+/* ============================================================================
+   TABLES & LISTS RTL
+   ============================================================================ */
+
+html[dir="rtl"] table {
+    text-align: right;
+}
+
+html[dir="rtl"] th,
+html[dir="rtl"] td {
+    text-align: right;
+}
+
+html[dir="rtl"] ul,
+html[dir="rtl"] ol {
+    padding-inline-start: 20px;
+    padding-inline-end: 0;
+}
+
+html[dir="rtl"] ul {
+    list-style-position: inside;
+}
+
+/* ============================================================================
+   MODALS & DROPDOWNS RTL
+   ============================================================================ */
+
+html[dir="rtl"] .dropdown-menu {
+    right: 0;
+    left: auto;
+    text-align: right;
+}
+
+html[dir="rtl"] .modal-content {
+    text-align: right;
+}
+
+/* ============================================================================
+   RESPONSIVE RTL OVERRIDES
+   ============================================================================ */
 
 @media (max-width: 900px) {
-    html[dir="ltr"] .Contactus .detalis div:first-child {
-        margin-left: 0;
+    html[dir="rtl"] .content .NavLink {
+        left: 0;
+        right: 0;
     }
-
-    html[dir="ltr"] .Contactus .detalis div:first-child button {
-        margin-left: 0;
+    
+    html[dir="rtl"] .content .NavLink ul li a {
+        text-align: right;
+    }
+    
+    html[dir="rtl"] .content .icon .nav-toggle {
+        order: -1;
     }
 }
 
 @media (max-width: 768px) {
-    html[dir="ltr"] .content2 .intro,
-    html[dir="ltr"] .ContentAbout .About .WordAbout {
-        margin-left: 0;
+    html[dir="rtl"] .contentFooter {
+        flex-direction: column-reverse;
     }
-
-    html[dir="ltr"] .ContentAbout .About {
-        flex-direction: column;
+    
+    html[dir="rtl"] .footer-bottom-content {
+        flex-direction: column-reverse;
+        text-align: right;
     }
-
-    html[dir="ltr"] .Contactus .detalis {
-        flex-direction: column;
-    }
-
-    html[dir="ltr"] .Contactus .detalis div:nth-child(2) img:first-child,
-    html[dir="ltr"] .Contactus .detalis div:nth-child(2) img:nth-child(2) {
-        right: auto;
-        left: 50%;
+    
+    html[dir="rtl"] .footer-bottom-links {
+        justify-content: center;
     }
 }
 
 @media (max-width: 480px) {
-    html[dir="ltr"] .contentFooter {
+    html[dir="rtl"] .contentFooter {
         flex-direction: column;
+    }
+}
+
+/* ============================================================================
+   BOOTSTRAP RTL OVERRIDES
+   ============================================================================ */
+
+/* Margin logical properties */
+[dir="rtl"] .me-2 { margin-inline-end: 0 !important; margin-inline-start: 0.5rem !important; }
+[dir="rtl"] .me-3 { margin-inline-end: 0 !important; margin-inline-start: 1rem !important; }
+[dir="rtl"] .ms-2 { margin-inline-start: 0 !important; margin-inline-end: 0.5rem !important; }
+[dir="rtl"] .ms-3 { margin-inline-start: 0 !important; margin-inline-end: 1rem !important; }
+[dir="rtl"] .me-auto { margin-inline-end: 0 !important; margin-inline-start: auto !important; }
+[dir="rtl"] .ms-auto { margin-inline-start: 0 !important; margin-inline-end: auto !important; }
+[dir="rtl"] .mx-auto { margin-inline: auto !important; }
+
+/* Text alignment */
+[dir="rtl"] .text-start { text-align: right !important; }
+[dir="rtl"] .text-end { text-align: left !important; }
+[dir="rtl"] .text-left { text-align: right !important; }
+[dir="rtl"] .text-right { text-align: left !important; }
+[dir="rtl"] .text-center { text-align: center !important; }
+
+/* Flex direction */
+[dir="rtl"] .flex-row { flex-direction: row-reverse !important; }
+[dir="rtl"] .flex-row-reverse { flex-direction: row !important; }
+
+/* Justify content */
+[dir="rtl"] .justify-content-start { justify-content: flex-end !important; }
+[dir="rtl"] .justify-content-end { justify-content: flex-start !important; }
+[dir="rtl"] .justify-content-center { justify-content: center !important; }
+
+/* Padding logical properties */
+[dir="rtl"] .ps-2 { padding-inline-start: 0 !important; padding-inline-end: 0.5rem !important; }
+[dir="rtl"] .ps-3 { padding-inline-start: 0 !important; padding-inline-end: 1rem !important; }
+[dir="rtl"] .pe-2 { padding-inline-end: 0 !important; padding-inline-start: 0.5rem !important; }
+[dir="rtl"] .pe-3 { padding-inline-end: 0 !important; padding-inline-start: 1rem !important; }
+
+/* Position logical properties */
+[dir="rtl"] .start-0 { inset-inline-start: auto !important; inset-inline-end: 0 !important; }
+[dir="rtl"] .end-0 { inset-inline-end: auto !important; inset-inline-start: 0 !important; }
+
+/* Float */
+[dir="rtl"] .float-start { float: right !important; }
+[dir="rtl"] .float-end { float: left !important; }
+
+/* Order */
+[dir="rtl"] .order-first { order: -1 !important; }
+[dir="rtl"] .order-last { order: 999 !important; }
+
+/* ============================================================================
+   EDUCATION PAGE RTL (Bootstrap specific)
+   ============================================================================ */
+html[dir="rtl"] .Education .d-flex.justify-content-end {
+    justify-content: flex-start !important;
+}
+
+html[dir="rtl"] .Education .bullet-square.me-2 {
+    margin-inline-end: 0 !important;
+    margin-inline-start: 0.5rem !important;
+}
+
+html[dir="rtl"] .education-page .Col {
+    /* Bootstrap Col order swap handled by flex-row-reverse on parent */
+}
+
+/* ============================================================================
+   JOBS PAGE RTL
+   ============================================================================ */
+html[dir="rtl"] .jobs-page {
+    text-align: right;
+}
+
+html[dir="rtl"] .jobs-page ul {
+    padding-inline-start: 20px;
+    padding-inline-end: 0;
+}
+
+/* ============================================================================
+   PAYMENT PAGE RTL
+   ============================================================================ */
+html[dir="rtl"] .payment-page {
+    text-align: right;
+}
+
+html[dir="rtl"] .payment-page .InputGroup {
+    text-align: right;
+}
+
+html[dir="rtl"] .payment-page .form-control {
+    text-align: right;
+}
+
+/* ============================================================================
+   LOGIN PAGE RTL
+   ============================================================================ */
+html[dir="rtl"] .login-page {
+    text-align: right;
+}
+
+html[dir="rtl"] .login-page input {
+    text-align: right;
+}
+
+/* ============================================================================
+   WHATSAPP FLOAT RTL
+   ============================================================================ */
+
+html[dir="rtl"] .whatsapp-float {
+    right: auto;
+    left: 20px;
+}
+
+@media (max-width: 480px) {
+    html[dir="rtl"] .whatsapp-float {
+        left: 14px;
+        right: auto;
     }
 }

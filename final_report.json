@@ -1,0 +1,2801 @@
+{
+    "successfully_documented":  0,
+    "timestamp":  "2026-11-03 15:18:45",
+    "total_with_documentation":  0,
+    "details":  [
+                    {
+                        "project_code":  "TXH-ESP-001",
+                        "project_title":  "AI CNC Tool Wear Monitor",
+                        "timestamp":  "2026-11-03 15:16:19",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-iot",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ESP-002",
+                        "project_title":  "AGV Fleet SLAM Node",
+                        "timestamp":  "2026-11-03 15:16:20",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-iot",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ESP-003",
+                        "project_title":  "Pneumatic Line Leak Grid",
+                        "timestamp":  "2026-11-03 15:16:21",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-iot",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ESP-004",
+                        "project_title":  "SMT Feeder Jam Detector",
+                        "timestamp":  "2026-11-03 15:16:21",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-iot",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ESP-005",
+                        "project_title":  "Hazardous Gas Mitigation",
+                        "timestamp":  "2026-11-03 15:16:22",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-iot",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ESP-006",
+                        "project_title":  "Industrial Oven Profiler",
+                        "timestamp":  "2026-11-03 15:16:22",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-iot",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ESP-007",
+                        "project_title":  "Factory Energy Sub-Meter",
+                        "timestamp":  "2026-11-03 15:16:23",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-iot",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ESP-008",
+                        "project_title":  "Conveyor Bearing Fault Detector",
+                        "timestamp":  "2026-11-03 15:16:23",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-iot",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ESP-009",
+                        "project_title":  "Robotic Arm Safety Radar",
+                        "timestamp":  "2026-11-03 15:16:24",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-iot",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ESP-010",
+                        "project_title":  "Forklift Impact Monitor",
+                        "timestamp":  "2026-11-03 15:16:24",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-iot",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-001",
+                        "project_title":  "Half Adder",
+                        "timestamp":  "2026-11-03 15:16:25",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-002",
+                        "project_title":  "Full Adder",
+                        "timestamp":  "2026-11-03 15:16:26",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-003",
+                        "project_title":  "Half Subtractor",
+                        "timestamp":  "2026-11-03 15:16:26",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-004",
+                        "project_title":  "Full Subtractor",
+                        "timestamp":  "2026-11-03 15:16:27",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-005",
+                        "project_title":  "4-bit Ripple Carry Adder",
+                        "timestamp":  "2026-11-03 15:16:27",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-006",
+                        "project_title":  "1-bit Digital Comparator",
+                        "timestamp":  "2026-11-03 15:16:27",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-007",
+                        "project_title":  "4-bit Digital Comparator",
+                        "timestamp":  "2026-11-03 15:16:28",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-008",
+                        "project_title":  "Parity Generator",
+                        "timestamp":  "2026-11-03 15:16:28",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-009",
+                        "project_title":  "Parity Checker",
+                        "timestamp":  "2026-11-03 15:16:29",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-010",
+                        "project_title":  "Logic Pattern Detector",
+                        "timestamp":  "2026-11-03 15:16:29",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-011",
+                        "project_title":  "4-to-2 Encoder",
+                        "timestamp":  "2026-11-03 15:16:30",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-012",
+                        "project_title":  "4-to-2 Priority Encoder",
+                        "timestamp":  "2026-11-03 15:16:30",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-013",
+                        "project_title":  "2-to-4 Decoder",
+                        "timestamp":  "2026-11-03 15:16:30",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-014",
+                        "project_title":  "3-to-8 Decoder",
+                        "timestamp":  "2026-11-03 15:16:31",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-015",
+                        "project_title":  "4-to-1 Multiplexer",
+                        "timestamp":  "2026-11-03 15:16:31",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-016",
+                        "project_title":  "8-to-1 Multiplexer",
+                        "timestamp":  "2026-11-03 15:16:32",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-017",
+                        "project_title":  "1-to-4 Demultiplexer",
+                        "timestamp":  "2026-11-03 15:16:33",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-018",
+                        "project_title":  "1-to-8 Demultiplexer",
+                        "timestamp":  "2026-11-03 15:16:34",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-019",
+                        "project_title":  "Boolean Function Using NAND Gates",
+                        "timestamp":  "2026-11-03 15:16:34",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-020",
+                        "project_title":  "Boolean Function Using NOR Gates",
+                        "timestamp":  "2026-11-03 15:16:35",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-021",
+                        "project_title":  "Truth Table Logic Circuit",
+                        "timestamp":  "2026-11-03 15:16:35",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-022",
+                        "project_title":  "Karnaugh Map Simplifier",
+                        "timestamp":  "2026-11-03 15:16:36",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-023",
+                        "project_title":  "Binary-to-Gray Converter",
+                        "timestamp":  "2026-11-03 15:16:36",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-024",
+                        "project_title":  "Gray-to-Binary Converter",
+                        "timestamp":  "2026-11-03 15:16:36",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-025",
+                        "project_title":  "BCD-to-7-Segment Decoder",
+                        "timestamp":  "2026-11-03 15:16:37",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-026",
+                        "project_title":  "Two-Digit 7-Segment Display",
+                        "timestamp":  "2026-11-03 15:16:37",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-027",
+                        "project_title":  "BCD Validity Checker",
+                        "timestamp":  "2026-11-03 15:16:38",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-028",
+                        "project_title":  "LED Pattern Controller",
+                        "timestamp":  "2026-11-03 15:16:38",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-029",
+                        "project_title":  "NOR SR Latch",
+                        "timestamp":  "2026-11-03 15:16:39",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-030",
+                        "project_title":  "NAND SR Latch",
+                        "timestamp":  "2026-11-03 15:16:39",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-031",
+                        "project_title":  "D Latch",
+                        "timestamp":  "2026-11-03 15:16:39",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-032",
+                        "project_title":  "D Flip-Flop",
+                        "timestamp":  "2026-11-03 15:16:40",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-033",
+                        "project_title":  "2-bit Binary Counter",
+                        "timestamp":  "2026-11-03 15:16:40",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-034",
+                        "project_title":  "4-bit Binary Counter",
+                        "timestamp":  "2026-11-03 15:16:40",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-035",
+                        "project_title":  "4-bit Up/Down Counter",
+                        "timestamp":  "2026-11-03 15:16:41",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-036",
+                        "project_title":  "Mod-6 Counter",
+                        "timestamp":  "2026-11-03 15:16:41",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-037",
+                        "project_title":  "Mod-10 / Decade Counter",
+                        "timestamp":  "2026-11-03 15:16:41",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-038",
+                        "project_title":  "4-bit Shift Register",
+                        "timestamp":  "2026-11-03 15:16:42",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-039",
+                        "project_title":  "Serial-In Parallel-Out Register",
+                        "timestamp":  "2026-11-03 15:16:42",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-040",
+                        "project_title":  "Parallel-In Serial-Out Register",
+                        "timestamp":  "2026-11-03 15:16:43",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-041",
+                        "project_title":  "LED Sequence Generator",
+                        "timestamp":  "2026-11-03 15:16:44",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-042",
+                        "project_title":  "Switch Debouncer",
+                        "timestamp":  "2026-11-03 15:16:44",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-043",
+                        "project_title":  "2-bit Code Lock",
+                        "timestamp":  "2026-11-03 15:16:45",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-044",
+                        "project_title":  "4-bit Code Lock",
+                        "timestamp":  "2026-11-03 15:16:45",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-045",
+                        "project_title":  "Logic Door Alarm",
+                        "timestamp":  "2026-11-03 15:16:46",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-046",
+                        "project_title":  "Multi-condition Alarm",
+                        "timestamp":  "2026-11-03 15:16:46",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-047",
+                        "project_title":  "Four-input Priority Service System",
+                        "timestamp":  "2026-11-03 15:16:46",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-048",
+                        "project_title":  "Digital Logic Traffic Light",
+                        "timestamp":  "2026-11-03 15:16:47",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-049",
+                        "project_title":  "Miniature Parking Control System",
+                        "timestamp":  "2026-11-03 15:16:47",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-050",
+                        "project_title":  "Four-person Voting Panel",
+                        "timestamp":  "2026-11-03 15:16:47",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-051",
+                        "project_title":  "Majority Voter",
+                        "timestamp":  "2026-11-03 15:16:48",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-052",
+                        "project_title":  "4-bit Parity Error Detector",
+                        "timestamp":  "2026-11-03 15:16:48",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-053",
+                        "project_title":  "2-bit ALU",
+                        "timestamp":  "2026-11-03 15:16:49",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-054",
+                        "project_title":  "Simplified 4-bit Arithmetic Unit",
+                        "timestamp":  "2026-11-03 15:16:49",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-DLG-055",
+                        "project_title":  "Small Digital Memory Using Latches",
+                        "timestamp":  "2026-11-03 15:16:49",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "digital-logic",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-001",
+                        "project_title":  "LDR Night-Light Dimmer",
+                        "timestamp":  "2026-11-03 15:16:50",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-002",
+                        "project_title":  "Audio Preamplifier",
+                        "timestamp":  "2026-11-03 15:16:50",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-003",
+                        "project_title":  "555 Delay Relay Timer",
+                        "timestamp":  "2026-11-03 15:16:50",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-004",
+                        "project_title":  "Battery Charge-Level LED Indicator",
+                        "timestamp":  "2026-11-03 15:16:51",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-005",
+                        "project_title":  "IR Beam Alarm",
+                        "timestamp":  "2026-11-03 15:16:51",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-006",
+                        "project_title":  "Function Generator",
+                        "timestamp":  "2026-11-03 15:16:51",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-007",
+                        "project_title":  "Capacitive Touch Relay Switch",
+                        "timestamp":  "2026-11-03 15:16:52",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-008",
+                        "project_title":  "Adjustable 0-24 V Power Supply",
+                        "timestamp":  "2026-11-03 15:16:52",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-009",
+                        "project_title":  "PWM DC Motor Speed Controller",
+                        "timestamp":  "2026-11-03 15:16:52",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-010",
+                        "project_title":  "Water-Leakage Alarm",
+                        "timestamp":  "2026-11-03 15:16:53",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-011",
+                        "project_title":  "Op-Amp Thermal Cutoff",
+                        "timestamp":  "2026-11-03 15:16:55",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-012",
+                        "project_title":  "Clap Switch",
+                        "timestamp":  "2026-11-03 15:16:56",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-013",
+                        "project_title":  "Inductive Metal Detector",
+                        "timestamp":  "2026-11-03 15:16:56",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-014",
+                        "project_title":  "Tank-Level Control with Dry-Run Protection",
+                        "timestamp":  "2026-11-03 15:16:56",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-015",
+                        "project_title":  "Ultrasonic Distance Meter",
+                        "timestamp":  "2026-11-03 15:16:56",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-016",
+                        "project_title":  "Smart Battery Charger",
+                        "timestamp":  "2026-11-03 15:16:57",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-017",
+                        "project_title":  "DHT11 Temperature and Humidity Monitor",
+                        "timestamp":  "2026-11-03 15:16:57",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-018",
+                        "project_title":  "Keypad Security Door Lock",
+                        "timestamp":  "2026-11-03 15:16:58",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-019",
+                        "project_title":  "Bidirectional Visitor Counter",
+                        "timestamp":  "2026-11-03 15:16:58",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-020",
+                        "project_title":  "Gas and Smoke Detector",
+                        "timestamp":  "2026-11-03 15:16:58",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-021",
+                        "project_title":  "Bluetooth Light Control",
+                        "timestamp":  "2026-11-03 15:16:59",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-022",
+                        "project_title":  "Smart Soil Irrigation",
+                        "timestamp":  "2026-11-03 15:16:59",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-023",
+                        "project_title":  "20 W Stereo Audio Amplifier",
+                        "timestamp":  "2026-11-03 15:17:00",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-024",
+                        "project_title":  "Under/Over-Voltage Protection",
+                        "timestamp":  "2026-11-03 15:17:00",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-025",
+                        "project_title":  "Line-Following Robot",
+                        "timestamp":  "2026-11-03 15:17:01",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-026",
+                        "project_title":  "RFID Access Control",
+                        "timestamp":  "2026-11-03 15:17:01",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-027",
+                        "project_title":  "Digital Motor Tachometer",
+                        "timestamp":  "2026-11-03 15:17:01",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-028",
+                        "project_title":  "Solar PWM/MPPT Charger",
+                        "timestamp":  "2026-11-03 15:17:02",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-029",
+                        "project_title":  "Stepper Motor Controller",
+                        "timestamp":  "2026-11-03 15:17:02",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-030",
+                        "project_title":  "Pulse Oximeter / ECG Signal Monitor",
+                        "timestamp":  "2026-11-03 15:17:02",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-031",
+                        "project_title":  "12 V-to-220 V Inverter",
+                        "timestamp":  "2026-11-03 15:17:03",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-032",
+                        "project_title":  "GSM SMS Home-Security System",
+                        "timestamp":  "2026-11-03 15:17:03",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-033",
+                        "project_title":  "Wi-Fi Weather Station",
+                        "timestamp":  "2026-11-03 15:17:03",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-034",
+                        "project_title":  "GPS Vehicle Tracker",
+                        "timestamp":  "2026-11-03 15:17:04",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-035",
+                        "project_title":  "Smart Greenhouse Controller",
+                        "timestamp":  "2026-11-03 15:17:04",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-036",
+                        "project_title":  "4-DOF Wireless Robotic Arm",
+                        "timestamp":  "2026-11-03 15:17:05",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-037",
+                        "project_title":  "Smart Parking System",
+                        "timestamp":  "2026-11-03 15:17:06",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-038",
+                        "project_title":  "RTC OLED Clock",
+                        "timestamp":  "2026-11-03 15:17:06",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-039",
+                        "project_title":  "ESP32 IoT Home Control",
+                        "timestamp":  "2026-11-03 15:17:07",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-EE-040",
+                        "project_title":  "Fingerprint Door Lock",
+                        "timestamp":  "2026-11-03 15:17:07",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-001",
+                        "project_title":  "Smart Fire Alarm",
+                        "timestamp":  "2026-11-03 15:17:07",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-002",
+                        "project_title":  "Automatic Tank Water-Level Control",
+                        "timestamp":  "2026-11-03 15:17:08",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-003",
+                        "project_title":  "Electronic Touch Switch",
+                        "timestamp":  "2026-11-03 15:17:08",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-004",
+                        "project_title":  "IR Beam Theft Alarm",
+                        "timestamp":  "2026-11-03 15:17:08",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-005",
+                        "project_title":  "PWM DC Motor Speed Control",
+                        "timestamp":  "2026-11-03 15:17:09",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-006",
+                        "project_title":  "Automatic LDR Light Switch",
+                        "timestamp":  "2026-11-03 15:17:09",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-007",
+                        "project_title":  "Smart Overcharge-Protected Battery Charger",
+                        "timestamp":  "2026-11-03 15:17:10",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-008",
+                        "project_title":  "0-30 V / 3 A Bench Power Supply",
+                        "timestamp":  "2026-11-03 15:17:10",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-009",
+                        "project_title":  "555 Timer Circuit",
+                        "timestamp":  "2026-11-03 15:17:10",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-010",
+                        "project_title":  "Temperature Measurement and Fan Control",
+                        "timestamp":  "2026-11-03 15:17:11",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-011",
+                        "project_title":  "Over/Under-Voltage Appliance Protection",
+                        "timestamp":  "2026-11-03 15:17:11",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-012",
+                        "project_title":  "Automatic Visitor Counter",
+                        "timestamp":  "2026-11-03 15:17:12",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-013",
+                        "project_title":  "RFID Door Access",
+                        "timestamp":  "2026-11-03 15:17:12",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-014",
+                        "project_title":  "Light-Sensitive Automatic Curtains",
+                        "timestamp":  "2026-11-03 15:17:13",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-015",
+                        "project_title":  "Wireless Doorbell",
+                        "timestamp":  "2026-11-03 15:17:13",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-016",
+                        "project_title":  "Peltier Cooler",
+                        "timestamp":  "2026-11-03 15:17:13",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-017",
+                        "project_title":  "LPG / Natural-Gas Leak Alarm",
+                        "timestamp":  "2026-11-03 15:17:14",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-018",
+                        "project_title":  "Ultrasonic Distance Measurement",
+                        "timestamp":  "2026-11-03 15:17:14",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-019",
+                        "project_title":  "Stepper-Motor Control",
+                        "timestamp":  "2026-11-03 15:17:14",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-020",
+                        "project_title":  "Line-Following Robot",
+                        "timestamp":  "2026-11-03 15:17:15",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-021",
+                        "project_title":  "Clap-Controlled Light Switch",
+                        "timestamp":  "2026-11-03 15:17:16",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-022",
+                        "project_title":  "Vibration Theft Alarm",
+                        "timestamp":  "2026-11-03 15:17:16",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-023",
+                        "project_title":  "Solar Charge Controller",
+                        "timestamp":  "2026-11-03 15:17:17",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-024",
+                        "project_title":  "Soil-Moisture Irrigation",
+                        "timestamp":  "2026-11-03 15:17:17",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-025",
+                        "project_title":  "Three-Phase Motor Direction Control",
+                        "timestamp":  "2026-11-03 15:17:17",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-026",
+                        "project_title":  "Function Generator",
+                        "timestamp":  "2026-11-03 15:17:18",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-027",
+                        "project_title":  "Battery Charge-Level Indicator",
+                        "timestamp":  "2026-11-03 15:17:18",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-028",
+                        "project_title":  "Mains-Failure Alarm",
+                        "timestamp":  "2026-11-03 15:17:18",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-029",
+                        "project_title":  "Digital Keypad Lock",
+                        "timestamp":  "2026-11-03 15:17:19",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-030",
+                        "project_title":  "DC H-Bridge Direction Control",
+                        "timestamp":  "2026-11-03 15:17:19",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-031",
+                        "project_title":  "Buck DC-DC Converter",
+                        "timestamp":  "2026-11-03 15:17:20",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-032",
+                        "project_title":  "Boost DC-DC Converter",
+                        "timestamp":  "2026-11-03 15:17:20",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-033",
+                        "project_title":  "Transistor Tester",
+                        "timestamp":  "2026-11-03 15:17:21",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-034",
+                        "project_title":  "Bluetooth RGB LED Control",
+                        "timestamp":  "2026-11-03 15:17:21",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-035",
+                        "project_title":  "Stereo Audio Amplifier",
+                        "timestamp":  "2026-11-03 15:17:22",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-036",
+                        "project_title":  "Digital RPM Tachometer",
+                        "timestamp":  "2026-11-03 15:17:22",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-037",
+                        "project_title":  "AC TRIAC Dimmer",
+                        "timestamp":  "2026-11-03 15:17:22",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-038",
+                        "project_title":  "Deep-Discharge Battery Protection",
+                        "timestamp":  "2026-11-03 15:17:23",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-039",
+                        "project_title":  "Wireless Battery Charger",
+                        "timestamp":  "2026-11-03 15:17:23",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-040",
+                        "project_title":  "Countdown Timer",
+                        "timestamp":  "2026-11-03 15:17:23",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-041",
+                        "project_title":  "Inductive Metal Detector",
+                        "timestamp":  "2026-11-03 15:17:24",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ELC-042",
+                        "project_title":  "Emergency Power Cutoff Switch",
+                        "timestamp":  "2026-11-03 15:17:24",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "electronics",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-001",
+                        "project_title":  "Mechanical Crane Boom",
+                        "timestamp":  "2026-11-03 15:17:24",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-002",
+                        "project_title":  "Rear Suspension Control Arm",
+                        "timestamp":  "2026-11-03 15:17:25",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-003",
+                        "project_title":  "Keyed Power-Transmission Shaft",
+                        "timestamp":  "2026-11-03 15:17:25",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-004",
+                        "project_title":  "Bridge Truss Segment",
+                        "timestamp":  "2026-11-03 15:17:26",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-005",
+                        "project_title":  "Aluminum Wheel Rim",
+                        "timestamp":  "2026-11-03 15:17:27",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-006",
+                        "project_title":  "Wind-Turbine Blade",
+                        "timestamp":  "2026-11-03 15:17:27",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-007",
+                        "project_title":  "Industrial Crane Hook",
+                        "timestamp":  "2026-11-03 15:17:28",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-008",
+                        "project_title":  "Diesel-Engine Mounting Bracket",
+                        "timestamp":  "2026-11-03 15:17:28",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-009",
+                        "project_title":  "Aircraft Wing Rib/Spar",
+                        "timestamp":  "2026-11-03 15:17:28",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-010",
+                        "project_title":  "Bicycle Frame",
+                        "timestamp":  "2026-11-03 15:17:29",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-011",
+                        "project_title":  "Compressor Impeller",
+                        "timestamp":  "2026-11-03 15:17:29",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-012",
+                        "project_title":  "Hydraulic Press Frame",
+                        "timestamp":  "2026-11-03 15:17:30",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-013",
+                        "project_title":  "Robotic Arm Link",
+                        "timestamp":  "2026-11-03 15:17:30",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-014",
+                        "project_title":  "Spur Gear",
+                        "timestamp":  "2026-11-03 15:17:30",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-015",
+                        "project_title":  "Rear Axle Housing",
+                        "timestamp":  "2026-11-03 15:17:31",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-016",
+                        "project_title":  "Formula Student Chassis",
+                        "timestamp":  "2026-11-03 15:17:31",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-017",
+                        "project_title":  "Pressure-Vessel Head",
+                        "timestamp":  "2026-11-03 15:17:31",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-018",
+                        "project_title":  "Helical Compression Spring",
+                        "timestamp":  "2026-11-03 15:17:32",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-019",
+                        "project_title":  "Automotive Leaf-Spring Assembly",
+                        "timestamp":  "2026-11-03 15:17:32",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-020",
+                        "project_title":  "Safety Relief-Valve Body",
+                        "timestamp":  "2026-11-03 15:17:32",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-021",
+                        "project_title":  "Connecting Rod",
+                        "timestamp":  "2026-11-03 15:17:33",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-022",
+                        "project_title":  "Engine Crankshaft",
+                        "timestamp":  "2026-11-03 15:17:33",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-023",
+                        "project_title":  "Structural Gusset Plate",
+                        "timestamp":  "2026-11-03 15:17:33",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-024",
+                        "project_title":  "Ship Propeller Shaft Assembly",
+                        "timestamp":  "2026-11-03 15:17:34",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-025",
+                        "project_title":  "Winch Drum",
+                        "timestamp":  "2026-11-03 15:17:34",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-026",
+                        "project_title":  "Tensile-Specimen Gripping Tool",
+                        "timestamp":  "2026-11-03 15:17:34",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-027",
+                        "project_title":  "Guillotine Shear Blade",
+                        "timestamp":  "2026-11-03 15:17:35",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-028",
+                        "project_title":  "Office-Chair Base",
+                        "timestamp":  "2026-11-03 15:17:35",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-029",
+                        "project_title":  "Quadcopter Frame",
+                        "timestamp":  "2026-11-03 15:17:36",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-030",
+                        "project_title":  "Plastic-Injection Mold Core/Cavity",
+                        "timestamp":  "2026-11-03 15:17:37",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-031",
+                        "project_title":  "Brake-Pedal Assembly",
+                        "timestamp":  "2026-11-03 15:17:37",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-032",
+                        "project_title":  "Drone Gimbal Frame",
+                        "timestamp":  "2026-11-03 15:17:37",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-033",
+                        "project_title":  "Heavy-Duty Door Latch",
+                        "timestamp":  "2026-11-03 15:17:38",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-034",
+                        "project_title":  "Heavy-Duty Hinge",
+                        "timestamp":  "2026-11-03 15:17:38",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-035",
+                        "project_title":  "Scissor-Lift Mechanism",
+                        "timestamp":  "2026-11-03 15:17:38",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-036",
+                        "project_title":  "Rotary Drum Roller Support",
+                        "timestamp":  "2026-11-03 15:17:39",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-037",
+                        "project_title":  "Buried Pipeline Joint",
+                        "timestamp":  "2026-11-03 15:17:39",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-038",
+                        "project_title":  "AGV Frame",
+                        "timestamp":  "2026-11-03 15:17:40",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-039",
+                        "project_title":  "Torque-Wrench Body",
+                        "timestamp":  "2026-11-03 15:17:40",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-040",
+                        "project_title":  "Concrete-Mixer Stand",
+                        "timestamp":  "2026-11-03 15:17:40",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-041",
+                        "project_title":  "Industrial Mixer Blade",
+                        "timestamp":  "2026-11-03 15:17:41",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-MAT-042",
+                        "project_title":  "Jaw Crusher Frame",
+                        "timestamp":  "2026-11-03 15:17:41",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "mechanical-design",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-001",
+                        "project_title":  "Direct On Line (DOL) Starter",
+                        "timestamp":  "2026-11-03 15:17:41",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-002",
+                        "project_title":  "Forward/Reverse Motor Control",
+                        "timestamp":  "2026-11-03 15:17:42",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-003",
+                        "project_title":  "Automatic Star-Delta Starter",
+                        "timestamp":  "2026-11-03 15:17:42",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-004",
+                        "project_title":  "Two-Motor Sequential Control",
+                        "timestamp":  "2026-11-03 15:17:42",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-005",
+                        "project_title":  "Automatic Water Pump Control",
+                        "timestamp":  "2026-11-03 15:17:43",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-006",
+                        "project_title":  "Conveyor Limit Switches",
+                        "timestamp":  "2026-11-03 15:17:43",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-007",
+                        "project_title":  "Two-Pump Alternating Control",
+                        "timestamp":  "2026-11-03 15:17:44",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-008",
+                        "project_title":  "Jogging / Inching Control",
+                        "timestamp":  "2026-11-03 15:17:44",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-009",
+                        "project_title":  "Emergency Stop Safety Circuit",
+                        "timestamp":  "2026-11-03 15:17:44",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-010",
+                        "project_title":  "Automatic Lighting Control",
+                        "timestamp":  "2026-11-03 15:17:45",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-011",
+                        "project_title":  "Automatic Garage Door",
+                        "timestamp":  "2026-11-03 15:17:45",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-012",
+                        "project_title":  "Fault Alarm Indication System",
+                        "timestamp":  "2026-11-03 15:17:47",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-013",
+                        "project_title":  "Off-Delay Timer Motor Stop",
+                        "timestamp":  "2026-11-03 15:17:47",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-014",
+                        "project_title":  "Three-Motor Timed Sequence",
+                        "timestamp":  "2026-11-03 15:17:47",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-015",
+                        "project_title":  "Forward-Pause-Reverse Timer",
+                        "timestamp":  "2026-11-03 15:17:48",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-016",
+                        "project_title":  "Automatic Transfer Switch (ATS)",
+                        "timestamp":  "2026-11-03 15:17:48",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-017",
+                        "project_title":  "PLC Start/Stop Motor Control",
+                        "timestamp":  "2026-11-03 15:17:48",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-018",
+                        "project_title":  "Traffic Light Control Logic",
+                        "timestamp":  "2026-11-03 15:17:49",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-019",
+                        "project_title":  "Product Counting \u0026 Batching",
+                        "timestamp":  "2026-11-03 15:17:49",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-020",
+                        "project_title":  "Two-Tank Level Control",
+                        "timestamp":  "2026-11-03 15:17:49",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-021",
+                        "project_title":  "Automatic Packaging Sequence",
+                        "timestamp":  "2026-11-03 15:17:50",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-022",
+                        "project_title":  "PLC Motor Reverse with Interlock (Arabic)",
+                        "timestamp":  "2026-11-03 15:17:50",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-023",
+                        "project_title":  "Sequential Operation of Three Conveyors (Arabic)",
+                        "timestamp":  "2026-11-03 15:17:50",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-024",
+                        "project_title":  "Defective Part Detection and Sorting System (Arabic)",
+                        "timestamp":  "2026-11-03 15:17:51",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-025",
+                        "project_title":  "Automatic Garage Door with Sensors (Arabic)",
+                        "timestamp":  "2026-11-03 15:17:51",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-026",
+                        "project_title":  "Temperature Monitoring and Ventilation Control (Arabic)",
+                        "timestamp":  "2026-11-03 15:17:52",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-027",
+                        "project_title":  "Two-Pump Operation with Failure Alarm (Arabic)",
+                        "timestamp":  "2026-11-03 15:17:52",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-028",
+                        "project_title":  "Multi-Speed Motor Selection via PLC (Arabic)",
+                        "timestamp":  "2026-11-03 15:17:53",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-029",
+                        "project_title":  "Emergency Stair Lighting System (Arabic)",
+                        "timestamp":  "2026-11-03 15:17:54",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-030",
+                        "project_title":  "Machine Protection and Password System (Arabic)",
+                        "timestamp":  "2026-11-03 15:17:55",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-031",
+                        "project_title":  "VFD and Star-Delta Control via Programming (Arabic)",
+                        "timestamp":  "2026-11-03 15:17:56",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-032",
+                        "project_title":  "Production Shift Counter and Efficiency Rate (Arabic)",
+                        "timestamp":  "2026-11-03 15:17:56",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-033",
+                        "project_title":  "VFD Keypad Local Control",
+                        "timestamp":  "2026-11-03 15:17:56",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-034",
+                        "project_title":  "External Terminal Start/Reverse",
+                        "timestamp":  "2026-11-03 15:17:57",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-035",
+                        "project_title":  "Potentiometer Analog Speed Setpoint",
+                        "timestamp":  "2026-11-03 15:17:57",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-036",
+                        "project_title":  "Ramp-up / Ramp-down Timing",
+                        "timestamp":  "2026-11-03 15:17:57",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-037",
+                        "project_title":  "Multi-Preset Speeds Logic",
+                        "timestamp":  "2026-11-03 15:17:59",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-038",
+                        "project_title":  "VFD Fault Reset / Overload Protection",
+                        "timestamp":  "2026-11-03 15:17:59",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-039",
+                        "project_title":  "Skip-Frequency Resonance Avoidance",
+                        "timestamp":  "2026-11-03 15:18:00",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-040",
+                        "project_title":  "DC-Injection Motor Braking",
+                        "timestamp":  "2026-11-03 15:18:00",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-041",
+                        "project_title":  "Temperature-Based Automatic Fan Speed",
+                        "timestamp":  "2026-11-03 15:18:01",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-042",
+                        "project_title":  "Pump Pressure / Minimum-Frequency Control",
+                        "timestamp":  "2026-11-03 15:18:02",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-043",
+                        "project_title":  "PLC-to-VFD Start/Direction Integration",
+                        "timestamp":  "2026-11-03 15:18:02",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-044",
+                        "project_title":  "PLC Analog Speed Control",
+                        "timestamp":  "2026-11-03 15:18:03",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-045",
+                        "project_title":  "Three-Speed Conveyor with Fault Alarm",
+                        "timestamp":  "2026-11-03 15:18:04",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-046",
+                        "project_title":  "Dual-Speed Building Ventilation",
+                        "timestamp":  "2026-11-03 15:18:05",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-047",
+                        "project_title":  "Automated Hoist / Lift with Limit-Switch Control",
+                        "timestamp":  "2026-11-03 15:18:05",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-048",
+                        "project_title":  "Integrated Water-Filling System",
+                        "timestamp":  "2026-11-03 15:18:06",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-IND-049",
+                        "project_title":  "Integrated Water-Treatment Automation Station",
+                        "timestamp":  "2026-11-03 15:18:06",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "industrial-automation",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-001",
+                        "project_title":  "Autonomous Warehouse AMR with EKF/Lidar SLAM",
+                        "timestamp":  "2026-11-03 15:18:06",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-002",
+                        "project_title":  "6-Axis Closed-Loop Industrial Robotic Arm",
+                        "timestamp":  "2026-11-03 15:18:07",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-003",
+                        "project_title":  "Autonomous AUV with Depth/Heading Hold",
+                        "timestamp":  "2026-11-03 15:18:07",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-004",
+                        "project_title":  "Self-Balancing Quadcopter",
+                        "timestamp":  "2026-11-03 15:18:08",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-005",
+                        "project_title":  "Pipe and Drain Inspection Crawler",
+                        "timestamp":  "2026-11-03 15:18:09",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-006",
+                        "project_title":  "3-Axis Camera Gimbal",
+                        "timestamp":  "2026-11-03 15:18:09",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-007",
+                        "project_title":  "Predictive Vibration FFT Maintenance Node",
+                        "timestamp":  "2026-11-03 15:18:10",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-008",
+                        "project_title":  "Vision-Guided Sorting Conveyor",
+                        "timestamp":  "2026-11-03 15:18:10",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-009",
+                        "project_title":  "Pneumatic Bottle Filling and Capping Machine",
+                        "timestamp":  "2026-11-03 15:18:11",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-010",
+                        "project_title":  "CNC Tool-Wear Monitoring System",
+                        "timestamp":  "2026-11-03 15:18:11",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-011",
+                        "project_title":  "Smart Assembly and Packaging Robotic Arm",
+                        "timestamp":  "2026-11-03 15:18:12",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-012",
+                        "project_title":  "Eddy-Current Metal Defect Detector",
+                        "timestamp":  "2026-11-03 15:18:13",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-013",
+                        "project_title":  "Dual-Safety Hydraulic Press",
+                        "timestamp":  "2026-11-03 15:18:15",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-014",
+                        "project_title":  "Precision PID Thermal Furnace",
+                        "timestamp":  "2026-11-03 15:18:16",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-015",
+                        "project_title":  "Automated Storage and Retrieval System (ASRS)",
+                        "timestamp":  "2026-11-03 15:18:16",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-016",
+                        "project_title":  "Thermal/Vibration Bearing Monitor",
+                        "timestamp":  "2026-11-03 15:18:16",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-017",
+                        "project_title":  "Industrial Power-Quality and Active PFC Monitor",
+                        "timestamp":  "2026-11-03 15:18:17",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-018",
+                        "project_title":  "Multi-Pump Closed-Loop PID Station",
+                        "timestamp":  "2026-11-03 15:18:17",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-019",
+                        "project_title":  "Dynamic Motor Hardware-in-the-Loop Test Bench",
+                        "timestamp":  "2026-11-03 15:18:18",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-020",
+                        "project_title":  "Astronomical Dual-Axis Solar Tracker",
+                        "timestamp":  "2026-11-03 15:18:18",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-021",
+                        "project_title":  "Grid-Tied Solar Microgrid Manager",
+                        "timestamp":  "2026-11-03 15:18:19",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-022",
+                        "project_title":  "Underground Cable Fault Locator",
+                        "timestamp":  "2026-11-03 15:18:19",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-023",
+                        "project_title":  "Multi-Stage Industrial Wastewater Treatment",
+                        "timestamp":  "2026-11-03 15:18:20",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-024",
+                        "project_title":  "Load-Cell Chemical Mixing Station",
+                        "timestamp":  "2026-11-03 15:18:20",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-025",
+                        "project_title":  "Smart EV Battery Charger",
+                        "timestamp":  "2026-11-03 15:18:21",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-026",
+                        "project_title":  "Adaptive Fire-Suppression Sprinkler System",
+                        "timestamp":  "2026-11-03 15:18:21",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-027",
+                        "project_title":  "CAN-Bus Vehicle Black-Box Logger",
+                        "timestamp":  "2026-11-03 15:18:22",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-028",
+                        "project_title":  "Driver Assistance and Lane Monitoring System",
+                        "timestamp":  "2026-11-03 15:18:23",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-029",
+                        "project_title":  "Active Hydraulic Vehicle Suspension",
+                        "timestamp":  "2026-11-03 15:18:23",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-030",
+                        "project_title":  "Radar Emergency Braking / Pedestrian Protection",
+                        "timestamp":  "2026-11-03 15:18:24",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-031",
+                        "project_title":  "Wireless EV Charging with Coil Alignment",
+                        "timestamp":  "2026-11-03 15:18:24",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-032",
+                        "project_title":  "Smart Fleet Telematics and OBD-II Monitor",
+                        "timestamp":  "2026-11-03 15:18:25",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-033",
+                        "project_title":  "Closed-Loop Hydroponics Controller",
+                        "timestamp":  "2026-11-03 15:18:25",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-034",
+                        "project_title":  "Precision Infusion Pump with Occlusion Detection",
+                        "timestamp":  "2026-11-03 15:18:26",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-035",
+                        "project_title":  "Multi-Zone Smart HVAC System",
+                        "timestamp":  "2026-11-03 15:18:26",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-036",
+                        "project_title":  "Hazardous-Gas Monitoring Matrix",
+                        "timestamp":  "2026-11-03 15:18:27",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-037",
+                        "project_title":  "Medical Neonatal Incubator",
+                        "timestamp":  "2026-11-03 15:18:27",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-038",
+                        "project_title":  "River Water Pollution Monitor",
+                        "timestamp":  "2026-11-03 15:18:28",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-039",
+                        "project_title":  "Seismic/Radar Perimeter Security System",
+                        "timestamp":  "2026-11-03 15:18:29",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-040",
+                        "project_title":  "Dam and Concrete-Structure Safety Monitor",
+                        "timestamp":  "2026-11-03 15:18:29",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-041",
+                        "project_title":  "Multifactor Biometric Access Gateway",
+                        "timestamp":  "2026-11-03 15:18:30",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-ARD-042",
+                        "project_title":  "Active Ship Ballast Balancing System",
+                        "timestamp":  "2026-11-03 15:18:30",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "embedded-systems",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-001",
+                        "project_title":  "Enterprise RAG Knowledge Engine",
+                        "timestamp":  "2026-11-03 15:18:30",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-002",
+                        "project_title":  "Autonomous AI Code Copilot",
+                        "timestamp":  "2026-11-03 15:18:31",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-003",
+                        "project_title":  "Real-Time Voice AI Agent",
+                        "timestamp":  "2026-11-03 15:18:31",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-004",
+                        "project_title":  "AI Image/Video Generation Platform",
+                        "timestamp":  "2026-11-03 15:18:32",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-005",
+                        "project_title":  "AI Marketing Agent",
+                        "timestamp":  "2026-11-03 15:18:32",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-006",
+                        "project_title":  "AI Multi-Vendor E-Commerce",
+                        "timestamp":  "2026-11-03 15:18:33",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-007",
+                        "project_title":  "Real-Time Kanban and AI Workspace",
+                        "timestamp":  "2026-11-03 15:18:33",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-008",
+                        "project_title":  "Smart ERP Restaurant",
+                        "timestamp":  "2026-11-03 15:18:34",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-009",
+                        "project_title":  "AI EdTech LMS Platform",
+                        "timestamp":  "2026-11-03 15:18:34",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-010",
+                        "project_title":  "AI Telehealth Portal",
+                        "timestamp":  "2026-11-03 15:18:35",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-011",
+                        "project_title":  "AI Website Builder",
+                        "timestamp":  "2026-11-03 15:18:35",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-012",
+                        "project_title":  "Smart Logistics Router",
+                        "timestamp":  "2026-11-03 15:18:36",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-013",
+                        "project_title":  "AI-Powered B2B CRM Engine",
+                        "timestamp":  "2026-11-03 15:18:36",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-014",
+                        "project_title":  "AI Content and Social Publishing Copilot",
+                        "timestamp":  "2026-11-03 15:18:37",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-015",
+                        "project_title":  "AI FinTech Wealth Manager",
+                        "timestamp":  "2026-11-03 15:18:37",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-016",
+                        "project_title":  "AI Video Streaming and Subtitles",
+                        "timestamp":  "2026-11-03 15:18:38",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-017",
+                        "project_title":  "Global Social App",
+                        "timestamp":  "2026-11-03 15:18:38",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-018",
+                        "project_title":  "AI Legal Contract Reviewer",
+                        "timestamp":  "2026-11-03 15:18:39",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-019",
+                        "project_title":  "AI Academic Research Hub",
+                        "timestamp":  "2026-11-03 15:18:40",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-020",
+                        "project_title":  "AI Recruitment Matching System",
+                        "timestamp":  "2026-11-03 15:18:40",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-021",
+                        "project_title":  "AI Fitness App",
+                        "timestamp":  "2026-11-03 15:18:41",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-022",
+                        "project_title":  "Smart Real-Estate Valuation",
+                        "timestamp":  "2026-11-03 15:18:42",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-023",
+                        "project_title":  "Multi-Agent Software Engineering Team",
+                        "timestamp":  "2026-11-03 15:18:42",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-024",
+                        "project_title":  "Natural-Language SQL Analytics",
+                        "timestamp":  "2026-11-03 15:18:42",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-025",
+                        "project_title":  "AI Website Security Scanner",
+                        "timestamp":  "2026-11-03 15:18:43",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-026",
+                        "project_title":  "AI Interactive Storytelling Game Engine",
+                        "timestamp":  "2026-11-03 15:18:43",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-027",
+                        "project_title":  "Supply-Chain Copilot",
+                        "timestamp":  "2026-11-03 15:18:43",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-028",
+                        "project_title":  "Omnichannel AI Support Hub",
+                        "timestamp":  "2026-11-03 15:18:44",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-029",
+                        "project_title":  "Automated Podcast Generator",
+                        "timestamp":  "2026-11-03 15:18:44",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    },
+                    {
+                        "project_code":  "TXH-FSA-030",
+                        "project_title":  "Visual Workflow Automation / n8n Alternative",
+                        "timestamp":  "2026-11-03 15:18:44",
+                        "doc_id":  "N/A",
+                        "message":  "HTTP 401 - {\"code\":\"UNAUTHORIZED_ASYMMETRIC_JWT\",\"message\":\"Invalid JWT\"}",
+                        "category":  "software-ai",
+                        "status":  "FAIL"
+                    }
+                ],
+    "failed":  310,
+    "success_rate":  0,
+    "already_existed":  0,
+    "total":  310
+}

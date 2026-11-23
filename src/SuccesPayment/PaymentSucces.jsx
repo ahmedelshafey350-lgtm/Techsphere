@@ -7,27 +7,25 @@ import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import Detalis from '../Cards/CoursesDetalis';
 import { useLanguage } from '../i18n/language';
+import { loadCourseDetails } from '../utils/courses';
 const BookingSuccessCard = ({ bookingData }) => {
     const { id } = useParams();
     const { language } = useLanguage();
+    const isEnglish = language === 'en';
     const [Courses, setCourses] = useState(Detalis[0]);
-    const courseNamesAr = {
-        0: 'تطوير الواجهات الأمامية',
-        1: 'تطوير الواجهات الخلفية',
-        2: 'تطوير Full-Stack',
-        3: 'أتمتة n8n',
-        4: 'الإلكترونيات التناظرية',
-        5: 'الإلكترونيات الرقمية',
-        6: 'تصميم لوحات PCB',
-        7: 'الروبوتات',
-    };
     useEffect(() => {
         if (id !== undefined) {
-            const courseIndex = Number(id);
-            if (Number.isInteger(courseIndex) && Detalis[courseIndex]) {
-                setCourses(Detalis[courseIndex]);
-            }
+            let isActive = true;
+            loadCourseDetails(id)
+                .then((course) => {
+                    if (isActive && course) setCourses(course);
+                })
+                .catch((error) => console.error('Unable to load enrolled course:', error));
+            return () => {
+                isActive = false;
+            };
         }
+        return undefined;
     }, [id]);
     const data = bookingData || (language === 'en' ? {
         courseTitle: Courses.name,
@@ -38,12 +36,12 @@ const BookingSuccessCard = ({ bookingData }) => {
         step3: 'Begin your learning journey with Techsphere',
         footerNote: 'If you have not heard from us within 24 hours, please contact us directly on WhatsApp.',
     } : {
-        courseTitle: courseNamesAr[Courses.id] || Courses.name,
+        courseTitle: Courses.nameAr || Courses.name,
         mainMessage: "تم الحجز بنجاح!",
         subMessage: "شكراً لك! تم استلام طلب الحجز بنجاح. سيتواصل معك فريقنا في أقرب وقت لتأكيد الاشتراك.",
         step1: "تم استلام طلبك بنجاح",
         step2: "سيتصل بك فريقنا خلال 24 ساعة لتأكيد الحجز",
-        step3: "ابدأ رحلتك التعليمية مع إيراسوفت",
+        step3: "ابدأ رحلتك التعليمية مع تك اسفير",
         footerNote: "إذا لم يتواصل معك أحد خلال 24 ساعة، يرجى التواصل معنا مباشرة عبر الواتساب"
     });
     const history = useHistory()
@@ -56,6 +54,7 @@ const BookingSuccessCard = ({ bookingData }) => {
     return (
         <Container
             className="d-flex justify-content-center align-items-center min-vh-100"
+            dir={isEnglish ? 'ltr' : 'rtl'}
             style={{ direction: language === 'en' ? 'ltr' : 'rtl', textAlign: language === 'en' ? 'left' : 'right' }}
         >
             <Card

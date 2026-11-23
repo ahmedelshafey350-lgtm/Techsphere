@@ -8,7 +8,6 @@ import DetalisFile from './DetalisFile'
 import { div } from 'framer-motion/client';
 import './education.css'
 import { Container, Row, Col, Badge } from 'react-bootstrap';
-import Footer from '../Footer/Footer'
 import { useLanguage } from '../i18n/language';
 function Education() {
     const [detalis] = useState(DetalisFile);
@@ -19,7 +18,6 @@ function Education() {
     useEffect(() => {
         console.log(Inner);
 
-
     }, [])
     function getinfo(id) {
         SetInner(detalis[id])
@@ -27,6 +25,7 @@ function Education() {
 
     return (
         <>
+            <main className="education-page" dir={language === 'en' ? 'ltr' : 'rtl'}>
             <div className='contentAbout2'>
                 <div className='ggg'>
                     <h1>{language === 'en' ? 'The Learning Journey' : ' الرحلة التعليمية'}</h1>
@@ -55,7 +54,7 @@ function Education() {
                     className="p-4 p-md-5 rounded-4 text-white position-relative shadow-lg"
                     style={{ backgroundColor: '#1A3688' }} // اللون الأزرق الداكن الخلفي
                 >
-                    {/* شارة الهيدر العلوي */}
+                    {/* شارة الهيدر العليا */}
                     <div className="d-flex justify-content-end mb-4">
                         <div
                             className="bg-white text-dark fw-bold px-4 py-2 rounded-3 d-flex align-items-center gap-2 shadow-sm"
@@ -94,23 +93,23 @@ function Education() {
                             {/* القائمة النقاطية */}
                             <ul className="list-unstyled custom-list text-white-50" style={{ fontSize: '1.05rem', lineHeight: '1.8' }}>
                                 <li className="mb-3 d-flex align-items-start gap-2 text-white">
-                                    <span className="bullet-square me-2">■</span>
+                                    <span className="bullet-square me-2">•</span>
                                     <span>{getText('description1')}</span>
                                 </li>
                                 <li className="mb-3 d-flex align-items-start gap-2 text-white">
-                                    <span className="bullet-square me-2">■</span>
+                                    <span className="bullet-square me-2">•</span>
                                     <span> {getText('description2')} </span>
                                 </li>
                                 <li className="mb-3 d-flex align-items-start gap-2 text-white">
-                                    <span className="bullet-square me-2">■</span>
+                                    <span className="bullet-square me-2">•</span>
                                     <span> {getText('description3')} </span>
                                 </li>
                                 <li className="mb-3 d-flex align-items-start gap-2 text-white">
-                                    <span className="bullet-square me-2">■</span>
+                                    <span className="bullet-square me-2">•</span>
                                     <span> {getText('description4')} </span>
                                 </li>
                                 <li className="mb-3 d-flex align-items-start gap-2 text-white">
-                                    <span className="bullet-square me-2">■</span>
+                                    <span className="bullet-square me-2">•</span>
                                     <span> {getText('description5')} </span>
                                 </li>
                             </ul>
@@ -118,7 +117,7 @@ function Education() {
                     </Row>
                 </div>
             </Container>
-            <Footer/>
+            </main>
         </>
     )
 }

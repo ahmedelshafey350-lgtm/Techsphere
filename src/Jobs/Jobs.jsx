@@ -4,7 +4,6 @@ import { ArrowLeft, ArrowRight, BriefcaseBusiness, KeyRound, LockKeyhole } from 
 import { getSupabaseClient, isSupabaseConfigured } from "../login/supabase";
 import { useLanguage } from "../i18n/language";
 import { forwardFormspreeSubmission, submitSiteRequest } from "../utils/requestSubmission";
-import Footer from "../Footer/Footer";
 import "./Jobs.css";
 
 const careerPaths = [
@@ -21,7 +20,7 @@ const careerPaths = [
             en: ["Build interactive pages with React.", "Create responsive interfaces for different screen sizes.", "Work with designers and back-end developers."],
         },
         requirements: {
-            ar: ["أساسيات HTML وCSS وJavaScript.", "معرفة React ومفاهيم المكونات والحالة.", "القدرة على عرض مشروعات أو نماذج من أعمالك."],
+            ar: ["أساسيات HTML وCSS وJavaScript.", "معرفة React ومفاهيم المكونات والحالة.", "القدرة على عرض مشروعات أو نماذج من أعمالف."],
             en: ["Working knowledge of HTML, CSS, and JavaScript.", "Familiarity with React components and state.", "Projects or work samples to share."],
         },
     },
@@ -140,7 +139,7 @@ const careerPaths = [
             en: ["Assemble prototypes and test their components.", "Connect sensors and actuators to controllers.", "Record experiment results and help troubleshoot."],
         },
         requirements: {
-            ar: ["أساسيات الإلكترونيات والروبوتات.", "معرفة أولية بالمستشعرات والمشغلات.", "الاستعداد للتعلم والعمل العملي ضمن فريق."],
+            ar: ["أساسيات الإلكترونيات والروبوتات.", "معرفة أولية بالمستشعرات والمشغلات.", "الاستعداد للتعلم والعمل العملي ضمن فريت."],
             en: ["Fundamentals of electronics and robotics.", "Introductory knowledge of sensors and actuators.", "Willingness to learn and work hands-on in a team."],
         },
     },
@@ -176,7 +175,7 @@ function Jobs() {
             if (error) {
                 setVerificationError(isEnglish
                     ? "Could not verify your account session. Please refresh the page."
-                    : "تعذر التحقق من جلسة حسابك. حدّث الصفحة وحاول مرة أخرى.");
+                    : "تعذر التحقق من جلسة حسابك. حدّث الصفحة وحاول مرة أخرت.");
             } else {
                 setUser(session?.user ?? null);
             }
@@ -218,19 +217,19 @@ function Jobs() {
                         setVerificationError(messages[error.context.status]
                             || "The code could not be verified. Please try again later.");
                     } else {
-                        setVerificationError(response?.error || "تعذر التحقق من الرمز. حاول مرة أخرى.");
+                        setVerificationError(response?.error || "تعذر التحقق من الرمز. حاول مرة أخرت.");
                     }
                 } else {
                     setVerificationError(isEnglish
                         ? "Could not connect to the verification service. Please try again."
-                        : "تعذر الاتصال بخدمة التحقق. حاول مرة أخرى.");
+                        : "تعذر الاتصال بخدمة التحقق. حاول مرة أخرت.");
                 }
                 return;
             }
             if (!data?.success) {
                 setVerificationError(isEnglish
                     ? "The code could not be verified. Please try again."
-                    : "تعذر التحقق من الرمز. حاول مرة أخرى.");
+                    : "تعذر التحقق من الرمز. حاول مرة أخرت.");
                 return;
             }
 
@@ -240,7 +239,7 @@ function Jobs() {
         } catch {
             setVerificationError(isEnglish
                 ? "Could not connect to the verification service. Please try again."
-                : "تعذر الاتصال بخدمة التحقق. حاول مرة أخرى.");
+                : "تعذر الاتصال بخدمة التحقق. حاول مرة أخرت.");
         } finally {
             setIsVerifying(false);
         }
@@ -258,7 +257,7 @@ function Jobs() {
                 {authLoading ? (
                     <section className="jobs-access-card" role="status">
                         <span className="jobs-access-icon"><LockKeyhole aria-hidden="true" /></span>
-                        <p>{isEnglish ? "Checking your account..." : "جارٍ التحقق من حسابك..."}</p>
+                        <p>{isEnglish ? "Checking your account..." : "جارٍ التحقق من حسابف..."}</p>
                     </section>
                 ) : !configured ? (
                     <section className="jobs-access-card" role="alert">
@@ -274,7 +273,7 @@ function Jobs() {
                         <h1>{isEnglish ? "Sign in to view career paths" : "سجّل الدخول لعرض الوظائف"}</h1>
                         <p>{isEnglish
                             ? "Sign in with a confirmed email address, then enter the administrator code."
-                            : "سجّل الدخول ببريد إلكتروني مؤكد، ثم أدخل الرمز السري الذي حصلت عليه من المالك."}</p>
+                            : "سجّل الدخول ببريد إلكتروني مؤكد، ثم أدخل الرمز السري الذي حصلت عليه من المالف."}</p>
                         {verificationError && (
                             <p className="jobs-alert" role="alert">{verificationError}</p>
                         )}
@@ -302,7 +301,7 @@ function Jobs() {
                         <h1>{isEnglish ? "Enter the administrator code" : "أدخل الرمز السري"}</h1>
                         <p>{isEnglish
                             ? "This page is available to signed-in users with a confirmed email and the code shared by the administrator."
-                            : "الصفحة متاحة للحسابات المسجلة ببريد مؤكد وبعد إدخال الرمز الذي يشاركه المالك."}</p>
+                            : "الصفحة متاحة للحسابات المسجلة ببريد مؤكد وبعد إدخال الرمز الذي يشاركه المالف."}</p>
                         {verificationError && (
                             <p className="jobs-alert" role="alert">{verificationError}</p>
                         )}
@@ -318,7 +317,7 @@ function Jobs() {
                             />
                             <button className="jobs-primary-button" type="submit" disabled={isVerifying}>
                                 {isVerifying
-                                    ? (isEnglish ? "Verifying..." : "جارٍ التحقق...")
+                                    ? (isEnglish ? "Verifying..." : "جارٍ التحقت...")
                                     : (isEnglish ? "View career paths" : "عرض الوظائف")}
                                 <Arrow aria-hidden="true" />
                             </button>
@@ -387,7 +386,6 @@ function Jobs() {
                     </div>
                 )}
             </main>
-            <Footer />
         </>
     );
 }
@@ -421,7 +419,7 @@ function JobDetails({ job, user, language }) {
         } catch (error) {
             setFormError(language === "en"
                 ? "We could not save your application. Please try again."
-                : error.message || "تعذر حفظ طلب التقديم. حاول مرة أخرى.");
+                : error.message || "تعذر حفظ طلب التقديم. حاول مرة أخرت.");
             setIsSubmitting(false);
             return;
         }
@@ -472,7 +470,7 @@ function JobDetails({ job, user, language }) {
                     <div className="jobs-success" role="status" aria-live="polite">
                         {isEnglish
                             ? "Your application was saved. You can follow its status from your account."
-                            : "تم حفظ طلبك. يمكنك متابعة حالته من صفحة حسابك."}
+                            : "تم حفظ طلبك. يمكنك متابعة حالته من صفحة حسابف."}
                         {submissionNotice && <p>{submissionNotice}</p>}
                     </div>
                 ) : (
@@ -529,7 +527,7 @@ function JobDetails({ job, user, language }) {
                                 />
                             </div>
                             <div className="jobs-field jobs-field-wide">
-                                <label htmlFor={`jobs-message-${job.id}`}>{isEnglish ? "Tell us about your experience" : "أخبرنا عن خبراتك"}</label>
+                                <label htmlFor={`jobs-message-${job.id}`}>{isEnglish ? "Tell us about your experience" : "أخبرنا عن خبراتف"}</label>
                                 <textarea
                                     className="fs-textarea"
                                     id={`jobs-message-${job.id}`}

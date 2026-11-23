@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import {
-    BrowserRouter as Router,
     Switch,
     Route,
     useLocation
@@ -8,9 +7,11 @@ import {
 
 import Home from "../Home/Home";
 import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 import About from "../About/About";
 import Review from "../Opinins/Review";
 import Courses from "../Courses/Courses";
+import CourseDetails from "../Courses/CourseDetails";
 import Contact from "../Contact/Contact";
 import Articals from "../Artcalis/Articals";
 import Education from "../Education/Education";
@@ -26,6 +27,14 @@ import Jobs from "../Jobs/Jobs";
 import { FAQPage, PoliciesPage } from "../InfoPages/InfoPages";
 import AdminDashboard from "../Admin/AdminDashboard";
 import { useLanguage } from "../i18n/language";
+import Services from "../Projects/Services";
+import CategoryProjects from "../Projects/CategoryProjects";
+import ProjectDetails from "../Projects/ProjectDetails";
+import ProjectRequestForm from "../Projects/ProjectRequestForm";
+import PrivateProjectDetails from "../Projects/PrivateProjectDetails";
+import MyProjects from "../Projects/MyProjects";
+import TrackList from "../Roadmaps/components/TrackList";
+import RoadmapView from "../Roadmaps/components/RoadmapView";
 
 const pageTitles = {
     "/": "Techsphere | التعليم والتدريب التقني",
@@ -45,6 +54,10 @@ const pageTitles = {
     "/FormInduvuail": "تدريب الأفراد | Techsphere",
     "/login": "تسجيل الدخول | Techsphere",
     "/account": "حسابي | Techsphere",
+    "/services": "الخدمات والمشاريع | Techsphere",
+    "/my-projects": "مشاريعي | Techsphere",
+    "/project-request": "طلب مشروع | Techsphere",
+    "/roadmaps": "خارطات التعلم | Techsphere",
 };
 
 function ScrollToTop() {
@@ -73,15 +86,25 @@ function ScrollToTop() {
                 "/FormInduvuail": "Individual Training | Techsphere",
                 "/login": "Log in | Techsphere",
                 "/account": "My Account | Techsphere",
+                "/services": "Services & Projects | Techsphere",
+                "/my-projects": "My Projects | Techsphere",
             }[pathname]
                 || (pathname.startsWith("/Payment/") && "Complete Your Enrollment | Techsphere")
+                || (pathname.startsWith("/Courses/") && "Course Details | Techsphere")
+                || (pathname.startsWith("/services/") && "Project Details | Techsphere")
+                || (pathname.startsWith("/projects/") && "Private Project | Techsphere")
                 || (pathname.startsWith("/Success/") && "Enrollment Confirmed | Techsphere")
                 || (pathname.startsWith("/articalis/") && "Learning Article | Techsphere")
+                || (pathname.startsWith("/roadmaps/") && "Learning Roadmap | Techsphere")
                 || "Techsphere | Technical Education and Training")
             : pageTitles[pathname]
             || (pathname.startsWith("/Payment/") && "إتمام الاشتراك | Techsphere")
+            || (pathname.startsWith("/Courses/") && "تفاصيل الكورس | Techsphere")
+            || (pathname.startsWith("/services/") && "تفاصيل المشروع | Techsphere")
+            || (pathname.startsWith("/projects/") && "مشروع خاص | Techsphere")
             || (pathname.startsWith("/Success/") && "تأكيد الاشتراك | Techsphere")
             || (pathname.startsWith("/articalis/") && "مقال تعليمي | Techsphere")
+            || (pathname.startsWith("/roadmaps/") && "خارطة تعلم | Techsphere")
             || "Techsphere | التعليم والتدريب التقني";
 
         document.title = title;
@@ -92,12 +115,13 @@ function ScrollToTop() {
 
 export default function BasicExample() {
     return (
-        <Router>
+        <>
             <ScrollToTop />
             <Header />
-            <div>
-                <Switch>
-                    <Route exact path="/">
+            <div className="page-layout">
+                <main className="page-content">
+                    <Switch>
+                        <Route exact path="/">
                         <Home />
                     </Route>
                     <Route exact path="/How">
@@ -108,6 +132,27 @@ export default function BasicExample() {
                     </Route>
                     <Route exact path="/Courses">
                         <Courses />
+                    </Route>
+                    <Route exact path="/Courses/:id">
+                        <CourseDetails />
+                    </Route>
+                    <Route exact path="/services">
+                        <Services />
+                    </Route>
+                    <Route exact path="/services/category/:slug">
+                        <CategoryProjects />
+                    </Route>
+                    <Route exact path="/services/:slug">
+                        <ProjectDetails />
+                    </Route>
+                    <Route exact path="/project-request">
+                        <ProjectRequestForm />
+                    </Route>
+                    <Route exact path="/projects/:projectCode">
+                        <PrivateProjectDetails />
+                    </Route>
+                    <Route exact path="/my-projects">
+                        <MyProjects />
                     </Route>
                     <Route exact path="/jobs">
                         <Jobs />
@@ -126,6 +171,12 @@ export default function BasicExample() {
                     </Route>
                     <Route exact path="/articals">
                         <Articals />
+                    </Route>
+                    <Route exact path="/roadmaps">
+                        <TrackList />
+                    </Route>
+                    <Route exact path="/roadmaps/:trackId">
+                        <RoadmapView />
                     </Route>
                     <Route exact path="/learn">
                         <Education />
@@ -158,7 +209,9 @@ export default function BasicExample() {
                         <BookingSuccessCard/>
                     </Route>
                 </Switch>
+                </main>
+                <Footer />
             </div>
-        </Router>
+        </>
     );
 }

@@ -6,8 +6,16 @@ import './index.css'
 import './global.css'
 import './theme.css'
 import './direction.css'
+import { BrowserRouter } from "react-router-dom";
+import { publicAsset } from './utils/publicAsset.js'
+
+document.documentElement.style.setProperty(
+  '--about-background-image',
+  `url("${publicAsset('image/edu.jpg')}")`
+)
+
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '')}>
     <App />
-  </StrictMode>,
+  </BrowserRouter>
 )

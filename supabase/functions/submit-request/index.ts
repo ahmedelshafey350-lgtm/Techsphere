@@ -88,13 +88,65 @@ Deno.serve(async (request) => {
     };
     if (requestType === "course_enrollment") {
         const courseId = body.courseId;
-        const courseName = typeof body.courseName === "string" ? body.courseName.trim() : "";
-        if (!Number.isInteger(courseId) || Number(courseId) < 0 || Number(courseId) > 7
-            || !courseName || courseName.length > 160) {
+        const isLegacyCourse = Number.isInteger(courseId)
+            && Number(courseId) >= 0 && Number(courseId) <= 7;
+        const isDynamicCourse = typeof courseId === "string"
+            && /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(courseId);
+        if (!isLegacyCourse && !isDynamicCourse) {
             return jsonResponse({ error: "الدورة المختارة غير صالحة." }, 400);
         }
-        row.course_id = courseId;
-        row.course_name = courseName;
+        const serviceClient = createClient(supabaseUrl, serviceRoleKey, {
+            auth: { persistSession: false, autoRefreshToken: false },
+        });
+        const courseQuery = serviceClient.from("course_catalog")
+            .select("id, legacy_id, title_en, title_ar, current_price, currency_code");
+        const { data: course, error: courseError } = isLegacyCourse
+            ? await courseQuery.eq("legacy_id", Number(courseId)).maybeSingle()
+            : await courseQuery.eq("id", courseId as string).maybeSingle();
+        if (courseError) {
+            console.error("Unable to verify enrollment course:", courseError.message);
+            return jsonResponse({ error: "تعذر التحقق من الكورس المختار." }, 500);
+        }
+        if (!course) return jsonResponse({ error: "الكورس غير منشور أو غير موجود." }, 404);
+        const courseName = course.title_ar || course.title_en;
+        if (isLegacyCourse) {
+            row.course_id = course.legacy_id;
+            row.course_name = courseName;
+            const { data, error } = await serviceClient
+                .from("site_requests")
+                .insert(row)
+                .select("id, request_type, status, created_at")
+                .single();
+            if (error) {
+                console.error("Unable to save legacy course request:", error.message);
+                return jsonResponse({ error: "تعذر حفظ الطلب. حاول مرة أخرى." }, 500);
+            }
+            return jsonResponse({ success: true, request: data });
+        }
+
+        const { data, error } = await serviceClient
+            .from("course_enrollment_requests")
+            .insert({
+                user_id: user.id,
+                course_id: course.id,
+                course_name: courseName,
+                quoted_price: course.current_price,
+                currency_code: course.currency_code,
+                name,
+                email: user.email,
+                phone,
+                message,
+            })
+            .select("id, status, created_at")
+            .single();
+        if (error) {
+            console.error("Unable to save dynamic course request:", error.message);
+            return jsonResponse({ error: "تعذر حفظ الطلب. حاول مرة أخرى." }, 500);
+        }
+        return jsonResponse({
+            success: true,
+            request: { ...data, request_type: "course_enrollment" },
+        });
     } else {
         const jobTitle = typeof body.jobTitle === "string" ? body.jobTitle.trim() : "";
         if (!jobTitle || jobTitle.length > 160) {

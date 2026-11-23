@@ -6,50 +6,56 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { motion } from "framer-motion"
-import Detalis from './CoursesDetalis'
 import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 import { useLanguage } from "../i18n/language";
+import { formatCoursePrice, loadPublishedCourses } from "../utils/courses";
+import { useEffect } from 'react';
 const MotionCard = motion(Card);
 
 function Cardcourses() {
     const [search, setSearch] = useState('');
     const [category, setCategory] = useState('all');
     const [maximumPrice, setMaximumPrice] = useState('');
+    const [courseList, setCourseList] = useState([]);
+    const [isLoadingCourses, setIsLoadingCourses] = useState(true);
+    const [courseLoadError, setCourseLoadError] = useState('');
     const history = useHistory();
     const { language } = useLanguage();
     const isEnglish = language === 'en';
-    const localizedCourses = {
-        0: { name: 'تطوير الواجهات الأمامية', description: 'تعلم HTML وCSS وJavaScript وReact وتصميم مواقع متوافقة مع مختلف الشاشات.' },
-        1: { name: 'تطوير الواجهات الخلفية', description: 'تعلم Node.js وExpress.js وواجهات REST API وقواعد البيانات والمصادقة.' },
-        2: { name: 'تطوير الواجهات المتكاملة', description: 'أنشئ تطبيقات ويب متكاملة باستخدام تقنيات الواجهات الأمامية والخلفية.' },
-        3: { name: 'أتمتة n8n', description: 'تعلم أتمتة سير العمل، وربط واجهات API، وأتمتة العمليات التجارية.' },
-        4: { name: 'الإلكترونيات التناظرية', description: 'تعرف على الدوائر التناظرية والثنائيات والترانزستورات ومضخمات العمليات.' },
-        5: { name: 'الإلكترونيات الرقمية', description: 'تعلم البوابات المنطقية والجبر البولياني والدوائر الرقمية والأنظمة التتابعية.' },
-        6: { name: 'تصميم لوحات الدوائر المطبوعة', description: 'تعلم تصميم المخططات وتخطيط لوحات الدوائر المطبوعة والتوصيلات وتصميم اللوحات.' },
-        7: { name: 'الروبوتات', description: 'استكشف أساسيات الروبوتات والمستشعرات والمشغلات وأنظمة التحكم.' },
-    };
-    const categoryById = {
-        0: 'software',
-        1: 'software',
-        2: 'software',
-        3: 'software',
-        4: 'electronics',
-        5: 'electronics',
-        6: 'electronics',
-        7: 'robotics',
-    };
-    const courses = Detalis.filter((course) => {
-        const translatedCourse = localizedCourses[course.id];
-        const searchText = `${course.name} ${course.description} ${translatedCourse.name} ${translatedCourse.description}`.toLocaleLowerCase(language);
+    useEffect(() => {
+        let isActive = true;
+        loadPublishedCourses()
+            .then(({ courses: loadedCourses, usedLegacyFallback }) => {
+                if (isActive) {
+                    setCourseList(loadedCourses);
+                    setCourseLoadError(usedLegacyFallback ? 'legacy-fallback' : '');
+                }
+            })
+            .catch((error) => {
+                if (isActive) {
+                    setCourseLoadError(error.message);
+                    setCourseList([]);
+                }
+            })
+            .finally(() => {
+                if (isActive) setIsLoadingCourses(false);
+            });
+        return () => {
+            isActive = false;
+        };
+    }, []);
+
+    const courses = courseList.filter((course) => {
+        const searchText = `${course.name} ${course.description} ${course.nameAr} ${course.descriptionAr}`.toLocaleLowerCase(language);
         const matchesSearch = searchText.includes(search.trim().toLocaleLowerCase(language));
-        const matchesCategory = category === 'all' || categoryById[course.id] === category;
+        const matchesCategory = category === 'all' || course.category === category;
         const matchesPrice = maximumPrice === '' || course.price <= Number(maximumPrice);
         return matchesSearch && matchesCategory && matchesPrice;
     });
 
 
-    function getDetalis(id) {
-        history.push(`/Payment/${id}`);
+    function showCourseDetails(id) {
+        history.push(`/Courses/${id}`);
     }
     return (
 
@@ -89,7 +95,24 @@ function Cardcourses() {
                 </label>
             </section>
             <div className='Cards courseCards'>
-                {courses.length ? courses.map((course) => (
+                {!isLoadingCourses && courseLoadError === 'legacy-fallback' && (
+                    <p className="course-no-results" role="status">
+                        {isEnglish
+                            ? 'Showing the existing courses while the Supabase course catalog is unavailable.'
+                            : 'نعرض الكورسات الموجودة حاليًا لأن كتالوج Supabase غير متاح.'}
+                    </p>
+                )}
+                {isLoadingCourses ? (
+                    <p className="course-no-results" role="status">
+                        {isEnglish ? 'Loading courses...' : 'جارٍ تحميل الكورسات...'}
+                    </p>
+                ) : courseLoadError && courseLoadError !== 'legacy-fallback' ? (
+                    <p className="course-no-results" role="status">
+                        {isEnglish
+                            ? `Could not load courses: ${courseLoadError}`
+                            : `تعذر تحميل الكورسات: ${courseLoadError}`}
+                    </p>
+                ) : courses.length ? courses.map((course) => (
                     <MotionCard key={course.id}
                         className='courseCard'
                         initial={{ opacity: 0, y: 30 }}
@@ -97,24 +120,47 @@ function Cardcourses() {
                         transition={{ duration: 0.8 }}
                         viewport={{ once: true, amount: 0.3 }}
                         sx={{ width: '100%', maxWidth: 345 }}>
-                       
+                            {course.discount_percentage > 0 && (
+                                <span
+                                    className="course-card-discount-badge"
+                                    aria-label={isEnglish
+                                        ? `${course.discount_percentage}% discount`
+                                        : `خصم ${course.discount_percentage}%`}
+                                >
+                                    {isEnglish ? `${course.discount_percentage}% OFF` : `خصم ${course.discount_percentage}%`}
+                                </span>
+                            )}
                             <CardMedia
                                 component="img"
                                 height="200"
                                 image={course.image}
-                                alt={isEnglish ? course.name : localizedCourses[course.id].name}
+                                alt={isEnglish ? course.name : course.nameAr}
                             />
 
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
-                                    {isEnglish ? course.name : localizedCourses[course.id].name}
+                                    {isEnglish ? course.name : course.nameAr}
                                 </Typography>
 
                                 <Typography variant="body2" color="text.secondary">
-                                    {isEnglish ? course.description : localizedCourses[course.id].description}
+                                    {isEnglish ? course.description : course.descriptionAr}
+                                </Typography>
+                                <Typography className="course-card-price" variant="body2">
+                                    {isEnglish ? 'Price' : 'السعر'}:{' '}
+                                    {course.discount_percentage > 0 && (
+                                        <del>{formatCoursePrice(course.original_price, course.currency_code, language)}{' '}</del>
+                                    )}
+                                    {formatCoursePrice(course.current_price, course.currency_code, language)}
                                 </Typography>
                             </CardContent>
-                            <button className='btnsubscription' onClick={()=>{getDetalis(course.id)}}>{isEnglish ? 'Enroll now' : 'اشترك الان'}</button>
+                            <div className="course-card-actions">
+                                <button className="course-details-button" onClick={() => showCourseDetails(course.routeId)}>
+                                    {isEnglish ? 'Course details' : 'تفاصيل الكورس'}
+                                </button>
+                                <button className='btnsubscription' onClick={() => showCourseDetails(course.routeId)}>
+                                    {isEnglish ? 'Enroll now' : 'اشترك الآن'}
+                                </button>
+                            </div>
                         
                     </MotionCard>
                 )) : (
