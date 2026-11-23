@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex" />
+    <title>Redirecting...</title>
+    <script>
+      const pathSegments = window.location.pathname.split("/").filter(Boolean);
+      const basePath = pathSegments.length ? `/${pathSegments[0]}` : "";
+      const route = `/${pathSegments.slice(1).join("/")}${window.location.search}${window.location.hash}`;
+      window.location.replace(`${basePath}/?p=${encodeURIComponent(route)}`);
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to the requested page...</p>
+  </body>
+</html>

@@ -7,6 +7,7 @@ import {
     Link
 } from "react-router-dom";
 import { useLanguage } from "../i18n/language";
+import { publicAsset } from "../utils/publicAsset.js";
 const ImportContactsOutlinedIcon = ImportContactsOutlinedIconModule.default;
 function Intro() {
     const { language } = useLanguage();
@@ -38,9 +39,10 @@ function Intro() {
 
     return (
         <>
+            <main className="intro-page" dir={isEnglish ? "ltr" : "rtl"}>
             <div className="content2">
                 <div className="image">
-                    <img src="../../public/image/new_hero.webp" alt="" />
+                    <img src={publicAsset('image/new_hero.webp')} alt="" />
                 </div>
                 <div className="intro">
                     <div className='head'>
@@ -57,7 +59,7 @@ function Intro() {
                         <span>{isEnglish ? '#WeHelpYouReachYourDream' : 'بنساعدك_توصل_لحلمك#'}</span>
                     </div>
                     <div className='btn'>
-                        <button  >  <Link to="/Courses">{isEnglish ? 'Start learning now' : ' ابدا التعلم الان '}</Link> </button>
+                        <button  >  <Link to="/Courses">{isEnglish ? 'Start learning now' : 'ابدأ التعلم الآن'}</Link> </button>
                         <button>< Link to="/traning/company">{isEnglish ? 'Corporate training' : 'تدريب الشركات'}</Link></button>
                         <button>< Link to="/traning/induvial">{isEnglish ? 'Individual training' : 'تدريب الافراد'}</Link></button>
                     </div>
@@ -87,6 +89,7 @@ function Intro() {
 
                 </div>
             </div>
+            </main>
         </>
     )
 }

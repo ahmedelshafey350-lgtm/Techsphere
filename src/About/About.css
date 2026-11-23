@@ -1,5 +1,5 @@
 .contentAbout2 {
-    background-image: url(../../public/image/edu.jpg);
+    background-image: var(--about-background-image);
     height: 85vh;
     background-repeat: no-repeat;
     width: 100%;

@@ -92,11 +92,12 @@ export default function Login() {
         try {
             const supabase = getSupabaseClient();
             const normalizedEmail = email.trim();
+            const authRedirectUrl = `${window.location.origin}${import.meta.env.BASE_URL}login`;
 
             if (isResetMode) {
                 const { error } = await supabase.auth.resetPasswordForEmail(
                     normalizedEmail,
-                    { redirectTo: `${window.location.origin}/login` }
+                    { redirectTo: authRedirectUrl }
                 );
                 if (error) throw error;
 
@@ -109,9 +110,16 @@ export default function Login() {
                     password,
                     options: {
                         data: { full_name: fullName.trim() },
+                        emailRedirectTo: authRedirectUrl,
                     },
                 });
                 if (error) throw error;
+
+                if (data.user?.identities?.length === 0) {
+                    setErrorMessage(supabaseErrorMessages.user_already_exists);
+                    setPassword('');
+                    return;
+                }
 
                 if (data.session) {
                     history.replace(history.location.state?.from || '/');

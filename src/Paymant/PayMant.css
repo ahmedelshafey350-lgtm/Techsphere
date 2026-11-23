@@ -47,6 +47,60 @@
     line-height: 1.8;
 }
 
+.payment-course-preview {
+    display: grid;
+    grid-template-columns: minmax(180px, 0.7fr) minmax(0, 1.3fr);
+    gap: 24px;
+    align-items: center;
+    margin-bottom: 24px;
+    padding: 22px;
+    border: 1px solid var(--payment-border);
+    border-radius: 20px;
+    background: var(--payment-surface);
+    box-shadow: 0 12px 36px rgba(27, 49, 83, 0.07);
+}
+
+.payment-course-preview img {
+    width: 100%;
+    min-height: 180px;
+    max-height: 240px;
+    border-radius: 14px;
+    object-fit: cover;
+}
+
+.payment-course-preview h2 {
+    margin: 0 0 8px;
+    color: var(--payment-text);
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+.payment-course-preview p {
+    margin: 0 0 12px;
+    color: var(--payment-muted);
+    line-height: 1.8;
+}
+
+.payment-course-preview strong {
+    display: block;
+    color: var(--payment-primary);
+}
+
+.payment-original-price {
+    margin-inline-start: 10px;
+    color: var(--payment-muted);
+    font-weight: 500;
+}
+
+.payment-course-details-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--payment-primary);
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
 .payment-layout {
     display: grid;
     grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
@@ -238,6 +292,17 @@
     .payment-layout {
         grid-template-columns: 1fr;
         gap: 18px;
+    }
+
+    .payment-course-preview {
+        grid-template-columns: 1fr;
+        gap: 16px;
+        padding: 18px;
+    }
+
+    .payment-course-preview img {
+        min-height: 0;
+        max-height: 220px;
     }
 
     .payment-summary {

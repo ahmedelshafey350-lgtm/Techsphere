@@ -1,18 +1,20 @@
 import React from 'react'
 import './Who.css'
 import { useLanguage } from "../i18n/language";
+import { publicAsset } from "../utils/publicAsset.js";
 function Who_us() {
     const { language } = useLanguage();
     const isEnglish = language === 'en';
     return (
+        <main className="who-us-page" dir={isEnglish ? "ltr" : "rtl"}>
         <div className='ContentAbout'>
             <div className='NameAbout'>
                 <h2>{isEnglish ? 'About TechSphere' : <>ماذا عن <bdi dir="ltr">TechSphere</bdi></>}</h2>
             </div>
             <div className='About'>
                 <div className="twoimage">
-                    <img src="../../public/image/about_one.webp" alt="" />
-                    <img src="../../public/image/about_two.webp" alt="" />
+                    <img src={publicAsset('image/about_one.webp')} alt="" />
+                    <img src={publicAsset('image/about_two.webp')} alt="" />
                 </div>
                 <div className='WordAbout'>
                     <div>
@@ -28,13 +30,13 @@ function Who_us() {
             <div className="moredetalis">
                 <div className="moreimage">
                     <div>
-                        <img src="../../public/image/about_slide_one.webp" alt="" />
+                        <img src={publicAsset('image/about_slide_one.webp')} alt="" />
                     </div>
                     <div>
-                        <img src="../../public/image/about_slide_one.webp" alt="" />
-                        <img src="../../public/image/about_slide_two.webp" alt="" />
-                        <img src="../../public/image/about_slide_three.webp" alt="" />
-                        <img src="../../public/image/about_slide_four.webp" alt="" />
+                        <img src={publicAsset('image/about_slide_one.webp')} alt="" />
+                        <img src={publicAsset('image/about_slide_two.webp')} alt="" />
+                        <img src={publicAsset('image/about_slide_three.webp')} alt="" />
+                        <img src={publicAsset('image/about_slide_four.webp')} alt="" />
                     </div>
                 </div>
                 <div className="contentTraniar">
@@ -53,6 +55,7 @@ function Who_us() {
                 </div>
             </div>
         </div>
+        </main>
     )
 }
 

@@ -19,13 +19,14 @@ function Question() {
     }
 
     return (
+        <main className="question-page" dir={isEnglish ? "ltr" : "rtl"}>
         <div className='contentQuestion'>
             <div className='NameHead'>
-                <h2>{isEnglish ? 'Frequently asked questions' : 'الاسئله الشائعه'}</h2>
+                <h2>{isEnglish ? 'Frequently asked questions' : 'الأسئلة الشائعة'}</h2>
             </div>
             <div className='Steps'>
                 <div onClick={() => { getp1() }}>
-                    <h4>{isEnglish ? 'How can I enroll in a course?' : 'كيف يمكنني التسجيل في الدورات؟ '}</h4>
+                    <h4>{isEnglish ? 'How can I enroll in a course?' : 'كيف يمكنني التسجيل في الدورات؟'}</h4>
                     <p style={{ display: status1 ? "block" : "none" }}>{isEnglish ? 'Choose the course you want, click “Enroll now,” and follow the steps.' : 'يمكنك التسجيل عبر اختيار الدورة التي ترغب بها ثم الضغط على زر "سجل الآن" واتباع الخطوات.'}</p>
                 </div>
                 <div onClick={() => { getp2() }}>
@@ -38,6 +39,7 @@ function Question() {
                 </div>
             </div>
         </div>
+        </main>
     )
 }
 

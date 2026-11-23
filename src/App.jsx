@@ -12,15 +12,12 @@ function App() {
       return undefined
     }
 
-    const hideTimeout = window.setTimeout(() => {
-      loader.classList.add("is-hidden")
-    }, 350)
+    loader.classList.add("is-hidden")
     const removeTimeout = window.setTimeout(() => {
       loader.remove()
-    }, 700)
+    }, 300)
 
     return () => {
-      window.clearTimeout(hideTimeout)
       window.clearTimeout(removeTimeout)
     }
   }, [])

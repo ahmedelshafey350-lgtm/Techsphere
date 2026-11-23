@@ -5,6 +5,7 @@ import {
     BookOpen,
     Camera,
     GraduationCap,
+    LayoutDashboard,
     LoaderCircle,
     LogOut,
     Mail,
@@ -179,7 +180,8 @@ export default function Profile() {
         let isActive = true;
         const loadRequests = async () => {
             setAreRequestsLoading(true);
-            const { data, error } = await getSupabaseClient()
+            const client = getSupabaseClient();
+            const { data, error } = await client
                 .from('site_requests')
                 .select('id, request_type, status, course_name, job_title, created_at, updated_at')
                 .eq('user_id', user.id)
@@ -191,7 +193,28 @@ export default function Profile() {
                     ? 'Could not load your request history. Apply the request tracking database setup.'
                     : 'تعذر تحميل سجل طلباتك. تأكد من إعداد قاعدة بيانات متابعة الطلبات.');
             } else {
-                setSiteRequests(data || []);
+                const { data: courseRequests, error: courseRequestError } = await client
+                    .from('course_enrollment_requests')
+                    .select('id, status, course_name, quoted_price, currency_code, created_at, updated_at')
+                    .eq('user_id', user.id)
+                    .order('created_at', { ascending: false });
+                if (!isActive) return;
+                if (courseRequestError) {
+                    setRequestsError(language === 'en'
+                        ? 'Could not load your new course request history.'
+                        : 'تعذر تحميل سجل طلبات الكورسات الجديدة.');
+                } else {
+                    setSiteRequests([
+                        ...(data || []),
+                        ...(courseRequests || []).map((request) => ({
+                            ...request,
+                            request_type: 'course_enrollment',
+                            job_title: null,
+                        })),
+                    ].sort((left, right) => (
+                        new Date(right.created_at).getTime() - new Date(left.created_at).getTime()
+                    )));
+                }
             }
             setAreRequestsLoading(false);
         };
@@ -396,6 +419,13 @@ export default function Profile() {
                     <p>{language === 'en'
                         ? 'View your account details and quickly access Techsphere learning sections from here.'
                         : <>من هنا تقدر تتابع بيانات حسابك وتوصل بسرعة لأقسام <bdi dir="ltr">Techsphere</bdi> التعليمية.</>}</p>
+                    <button
+                        className="profile-primary-action"
+                        type="button"
+                        onClick={() => history.push('/my-projects')}
+                    >
+                        {language === 'en' ? 'My projects and orders' : 'مشاريعي وطلباتي'}
+                    </button>
                 </header>
 
                 {errorMessage && (
@@ -590,6 +620,9 @@ export default function Profile() {
                                                 : (language === 'en' ? 'Career-path application' : 'طلب تقديم لمسار مهني')}
                                         </span>
                                         <strong>{request.course_name || request.job_title}</strong>
+                                        {request.quoted_price !== null && request.quoted_price !== undefined && (
+                                            <span>{request.quoted_price} {request.currency_code || 'EGP'}</span>
+                                        )}
                                         <time dateTime={request.created_at}>
                                             {new Intl.DateTimeFormat(language === 'en' ? 'en-US' : 'ar-EG', { dateStyle: 'medium' }).format(new Date(request.created_at))}
                                         </time>
@@ -611,6 +644,16 @@ export default function Profile() {
                         <p>{language === 'en' ? 'Explore courses or return to your learning journey on the platform.' : 'استكشف الدورات أو ارجع إلى رحلتك التعليمية على المنصة.'}</p>
                     </div>
                     <div className="profile-actions">
+                        {isAdminAccount === true && (
+                            <button
+                                className="profile-primary-action"
+                                type="button"
+                                onClick={() => history.push('/admin')}
+                            >
+                                <LayoutDashboard size={18} aria-hidden="true" />
+                                {language === 'en' ? 'Admin dashboard' : 'لوحة الإدارة'}
+                            </button>
+                        )}
                         <button
                             className="profile-primary-action"
                             type="button"

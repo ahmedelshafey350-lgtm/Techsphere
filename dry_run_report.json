@@ -1,0 +1,18 @@
+﻿{
+    "mode":  "DRY_RUN",
+    "details":  [
+
+                ],
+    "processed":  0,
+    "timestamp":  "2026-11-03 15:50:56",
+    "valid_images":  0,
+    "skipped":  0,
+    "no_image_projects":  {
+
+                          },
+    "total_projects":  310,
+    "dry_run":  false,
+    "invalid_images":  0,
+    "failed":  0,
+    "updated_in_db":  0
+}

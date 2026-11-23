@@ -1,8 +1,9 @@
 import { AccountCircle, CalendarToday, Visibility } from '@mui/icons-material';
+import { publicAsset } from '../utils/publicAsset.js';
 const articles = [
     {
         id: 1,
-        image: "/image/AI Automation_ مستقبل الوظائف الذكية.png",
+        image: publicAsset('image/AI Automation_ مستقبل الوظائف الذكية.png'),
         title: "AI Automation الوظائف الجديدة التي ظهرت بسبب الذكاء الاصطناعي",
         description:
             "تعرف على مجال AI Automation والوظائف الجديدة التي ظهرت بسبب الذكاء الاصطناعي وأهم المهارات المطلوبة لدخول المجال.",
@@ -21,7 +22,7 @@ const articles = [
     },
     {
         id: 2,
-        image: "/image/KS2oz63i53V4eGp-n7k7chhnovZJDgNoimportant.jpg",
+        image: publicAsset('image/KS2oz63i53V4eGp-n7k7chhnovZJDgNoimportant.jpg'),
         title: "أهم 10 مشاريع برمجي للمبتدئين لبناء Portfolio قوي",
         description:
             "قائمة بأفضل 10 مشاريع برمجية للمبتدئين تساعدك على بناء Portfolio قوي وإثبات مهاراتك عند التقديم على أول وظيفة برمجية.",
@@ -40,7 +41,7 @@ const articles = [
     },
     {
         id: 3,
-        image: "/image/Salary.jpg",
+        image: publicAsset('image/Salary.jpg'),
         title: "رواتب المبرمجين في مصر والدول العربية 2026",
         description:
             "تعرف على رواتب المبرمجين في مصر والدول العربية في 2026 والعوامل التي تؤثر على الدخل مثل الخبرة والتخصص واللغة.",
@@ -59,7 +60,7 @@ const articles = [
     },
     {
         id: 4,
-        image: "/image/Electronics.jpg",
+        image: publicAsset('image/Electronics.jpg'),
         title: "كيف تتعلم الإلكترونيات من الصفر؟ 2026",
         description:
            " كل دائرة إلكترونية وراها فكرة، وكل مشروع كبير بيبدأ بفهم الأساسيات.",
@@ -80,13 +81,13 @@ const articles = [
         id: 5,
         title: "كيف تتعلم البرمجة من الصفر؟",
         slug: "how-to-learn-programming-from-scratch",
-        image: "/image/fullstack.jpg",
+        image: publicAsset('image/fullstack.jpg'),
         paragraph:
             "دليل شامل للمبتدئين لتعلم البرمجة من الصفر، واختيار لغة البرمجة المناسبة، وبناء مشاريع عملية تساعدك على تطوير مهاراتك والاستعداد لسوق العمل.",
         category: "Programming",
         author: {
             name: "Ahmed Elshafey",
-            avatar: "/images/authors/ahmed.jpg",
+            avatar: publicAsset('images/authors/ahmed.jpg'),
             bio: "Mechatronics and Industrial Automation Engineer | Front-End Developer | Tech Enthusiast",
         },
         publishedAt: "2026-10-29",
@@ -110,13 +111,13 @@ const articles = [
         id: 6,
         title: "كيف تحصل على وظيفة في البرمجة بدون خبرة؟",
         slug: "how-to-get-a-programming-job-without-experience",
-        image: "/image/HowLearning.jpg",
+        image: publicAsset('image/HowLearning.jpg'),
         paragraph:
             "اكتشف كيف تبني Portfolio قويًا، وتنفذ مشاريع حقيقية، وتكتب CV احترافيًا، وتستعد للمقابلات الشخصية لتزيد فرصك في الحصول على أول وظيفة في مجال البرمجة.",
         category: "Career",
         author: {
             name: "Ahmed Elshafey",
-            avatar: "/images/authors/ahmed.jpg",
+            avatar: publicAsset('images/authors/ahmed.jpg'),
             bio: "Mechatronics and Industrial Automation Engineer | Front-End Developer | Tech Enthusiast",
         },
         publishedAt: "2026-10-29",
@@ -140,13 +141,13 @@ const articles = [
         id: 7,
         title: "هل البرمجة لسه ليها مستقبل؟",
         slug: "does-programming-still-have-a-future",
-        image: "/image/programing.jpg",
+        image: publicAsset('image/programing.jpg'),
         paragraph:
             "مع تطور الذكاء الاصطناعي وأدوات كتابة الكود، هل ما زالت البرمجة مجالًا يستحق التعلم؟ تعرّف على المهارات المطلوبة، وتأثير AI على سوق العمل، وكيف تستعد للمستقبل.",
         category: "Technology",
         author: {
             name: "Ahmed Elshafey",
-            avatar: "/images/authors/ahmed.jpg",
+            avatar: publicAsset('images/authors/ahmed.jpg'),
             bio: "Mechatronics and Industrial Automation Engineer | Front-End Developer | Tech Enthusiast",
         },
         publishedAt: "2026-10-29",

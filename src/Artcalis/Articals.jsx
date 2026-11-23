@@ -8,7 +8,6 @@ import articles from './Detalis'
 import { motion } from "framer-motion"
 const MotionCard = motion(Card);
 import '../Cards/card.css'
-import Footer from '../Footer/Footer'
 import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 import { useLanguage } from '../i18n/language';
 function Articals() {
@@ -20,6 +19,7 @@ function Articals() {
     }
     return (
         <>
+            <main className="articles-page" dir={language === 'en' ? 'ltr' : 'rtl'}>
             <div className='contentAbout2'>
                 <div className='ggg'>
                     <h1>{language === 'en' ? 'Learn with Techsphere' : <>تعلّم مع <bdi dir="ltr">Techsphere</bdi></>}</h1>
@@ -52,12 +52,12 @@ function Articals() {
                                 {language === 'en' ? course.paragraphEn : course.paragraph}
                             </Typography>
                         </CardContent>
-                        <button className='btnsubscription' onClick={()=>{GetLink(course.id)}}>{language === 'en' ? 'Read article' : ' قراءه المقال'}</button>
+                        <button className='btnsubscription' onClick={()=>{GetLink(course.id)}}>{language === 'en' ? 'Read article' : 'قراءة المقال'}</button>
 
                     </MotionCard>
                 ))}
             </div>
-            <Footer/>
+            </main>
         </>
     )
 }

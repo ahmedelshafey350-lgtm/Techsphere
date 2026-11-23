@@ -6,7 +6,6 @@ import { useParams } from 'react-router-dom';
 import Detalis from '../Artcalis/Detalis';
 import { CheckCircle } from '@mui/icons-material';
 import articleData, { articleDataEn } from './Ten';
-import Footer from '../Footer/Footer';
 import { useLanguage } from '../i18n/language';
 const CourseBannerCard = () => {
     const { id } = useParams();
@@ -186,7 +185,7 @@ const CourseBannerCard = () => {
                         </div>
                     </Card>
 
-                   
+
 
                     <Row className="g-4 mb-5">
                         {ArticleData.projects.map((proj) => (
@@ -218,7 +217,7 @@ const CourseBannerCard = () => {
                         ))}
                     </Row>
 
-                    {/* قسم كيف تعرض مشاريعك */}
+                    {/* قسم كيف تعرض مشاريع */}
                     <Card className="border-0 shadow-sm p-4 mb-4 rounded-4">
                         <h2 className="fw-bold text-dark mb-3 fs-3 border-bottom pb-2">
                             {ArticleData.howToPresentTitle}
@@ -248,7 +247,6 @@ const CourseBannerCard = () => {
 
                 </Container>
             </div>
-            <Footer/>
         </>
     );
 };
